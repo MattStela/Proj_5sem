@@ -52,10 +52,20 @@ footer {
     width: 10%;
 }
 
-.midlebody {
+.midle_body1 {
+    position:relative;
     height: 400px;
     width: auto;
     margin: auto;
+    
+}
+
+.midle_body2 {
+    position:relative;
+    height: 400px;
+    width: auto;
+    margin: auto;
+    
 }
 
 .midle_bg {
@@ -71,17 +81,17 @@ footer {
 .text_middle_body1 {
     position: absolute;
     top: 40%;
-    left: 30%;
+    left: 35%;
     color: white;
     transform: translate(-50%, -50%);
     font-family: sans-serif;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 .button_middle_body1 {
     
     top: 60%;
-    left: 16%;
+    left: 20%;
     color: white;
     transform: translate(-50%, -50%);
     font-family: sans-serif;
@@ -90,13 +100,13 @@ footer {
     border-radius: 5px;
     border: 3px solid white;
     font-family: Arial;
-    font-size: 30px;
-    padding: 19px 31px;
+    font-size: 17px;
+    padding: 16px 31px;
 }
 
 .button_middle_body2{
     top: 60%;
-    left: 32%;
+    left: 36%;
     color: white;
     transform: translate(-50%, -50%);
     font-family: sans-serif;
@@ -105,6 +115,16 @@ footer {
     border-radius: 5px;
     border: 3px solid black;
     font-family: Arial;
-    font-size: 30px;
+    font-size: 17px;
     padding: 19px 31px;
+}
+
+.logo_middle_body1{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+.content_body1{
+    left: 76%;
 }
