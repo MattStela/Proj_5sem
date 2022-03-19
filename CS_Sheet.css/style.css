@@ -1,0 +1,110 @@
+/*isso aqui é pra todo mundo*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*====================== estilos de TAGS ======================*/
+li, a {
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 105%;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 30px 10%;
+    box-shadow: 0px 10px 10px black;
+}
+
+footer {
+    background-color: gray;
+    height: 80px;
+    width: auto;
+}
+
+/*====================== estilos de CLASSES ======================*/
+.nav_links {
+    list-style: none;
+    width: 100%;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: gray;
+}
+
+.logo {
+    width: 10%;
+}
+
+.midlebody {
+    height: 400px;
+    width: auto;
+    margin: auto;
+}
+
+.midle_bg {
+    position: "absolute";
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+
+    /*fixa a imagem independente do zoom*/
+    width: 100%;
+}
+
+.text_middle_body1 {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 300%;
+}
+
+.button_middle_body1 {
+    
+    top: 60%;
+    left: 16%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    position: absolute;
+    background-color: #FFFFFF30;
+    border-radius: 5px;
+    border: 3px solid white;
+    font-family: Arial;
+    font-size: 30px;
+    padding: 19px 31px;
+}
+
+.button_middle_body2{
+    top: 60%;
+    left: 32%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    border: 3px solid black;
+    font-family: Arial;
+    font-size: 30px;
+    padding: 19px 31px;
+}
