@@ -68,7 +68,7 @@ footer {
     
 }
 
-.midle_bg {
+.midle_bg1 {
     position: "absolute";
     z-index: -1;
     left: 0px;
@@ -127,4 +127,31 @@ footer {
 
 .content_body1{
     left: 76%;
+}
+
+.midle_body2{
+    position:relative;
+    margin:10%;
+    padding:3%;
+}
+
+.midle_bg2{
+    position:absolute;
+    margin:5%;
+    right:5%;
+    width:40%;
+}
+
+.text_midle_body2{
+    position:absolute;
+    margin:5%;
+    padding:3%;
+    font-size:20px;
+    font-family: sans-serif;
+}
+
+.title_separator_body2{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #333;
 }
