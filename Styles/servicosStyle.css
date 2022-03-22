@@ -15,11 +15,11 @@ hr{
   margin-left: 2%;
 }
 
-.servicos {
+.servicos_esquerda {
   padding: 40px;
 }
 
-.servicos-direita{
+.servicos_direita{
   padding: 40px;
   display:flex;
   align-items:right;
@@ -37,15 +37,8 @@ div > p {
 }
 
 
-.servicos_imagens_direita {
+.servicos_imagens {
   display: inline-block;
   width: 500px;
   margin-bottom: 50px; 
-
-}
-
-.servicos_imagens_esquerda {
-  display: inline-block;
-  width: 500px;
-  margin-bottom: 50px;
 }
