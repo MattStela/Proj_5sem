@@ -1,0 +1,51 @@
+h1 {
+  margin-left: 50%;
+  margin-top: 20%;
+  /*Arrumar tamanho da fonte*/
+}
+
+h2 {
+  margin: 50px;
+  text-align: center;
+  /*Arrumar tamanho da fonte*/
+}
+
+hr{
+  width: 95%;
+  margin-left: 2%;
+}
+
+.servicos {
+  padding: 40px;
+}
+
+.servicos-direita{
+  padding: 40px;
+  display:flex;
+  align-items:right;
+  justify-content:right;
+}
+
+div > p {
+
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.2em; 
+  /*Arrumar tamanho da fonte*/
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+.servicos_imagens_direita {
+  display: inline-block;
+  width: 500px;
+  margin-bottom: 50px; 
+
+}
+
+.servicos_imagens_esquerda {
+  display: inline-block;
+  width: 500px;
+  margin-bottom: 50px;
+}
