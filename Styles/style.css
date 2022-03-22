@@ -52,50 +52,53 @@ footer {
     width: 10%;
 }
 
-.midle_body1 {
-    position:relative;
-    height: 400px;
-    width: auto;
-    margin: auto;
-    
-}
-
-.midle_body2 {
-    position:relative;
-    height: 400px;
-    width: auto;
-    margin: auto;
-    
-}
-
-.midle_bg1 {
-    position: "absolute";
-    z-index: -1;
-    left: 0px;
-    top: 0px;
-
-    /*fixa a imagem independente do zoom*/
-    width: 100%;
-}
-
-.text_middle_body1 {
-    position: absolute;
-    top: 40%;
-    left: 35%;
+.container {
+    position: relative;
+    text-align: center;
     color: white;
-    transform: translate(-50%, -50%);
-    font-family: sans-serif;
-    font-size: 200%;
 }
 
-.button_middle_body1 {
+/* conteúdo da primeira parte do corpo */
+
+.conteudo_esquerda {
     
-    top: 60%;
-    left: 20%;
-    color: white;
-    transform: translate(-50%, -50%);
-    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 125%;
     position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width:60%;
+    height:93%;
+    left:33%;
+
+    border:1px solid red;
+
+}
+
+.conteudo_direita {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+    position: absolute;
+    top: 50%;
+    left:75%;
+    transform: translate(-50%, -50%);
+    width:20%;
+    height:50%;
+
+    border:1px solid rgb(15, 240, 45);
+
+}
+/*==================================================*/
+
+.button1 {
+
+	top: 60%;
+    color: white;
+    font-family: sans-serif;
     background-color: #FFFFFF30;
     border-radius: 5px;
     border: 3px solid white;
@@ -104,55 +107,15 @@ footer {
     padding: 16px 31px;
 }
 
-.button_middle_body2{
-    top: 60%;
-    left: 36%;
+.button2 {
+
+	top: 60%;    
     color: white;
-    transform: translate(-50%, -50%);
     font-family: sans-serif;
-    position: absolute;
-    background-color: black;
+    background-color: #FFFFFF30;
     border-radius: 5px;
-    border: 3px solid black;
+    border: 3px solid white;
     font-family: Arial;
     font-size: 17px;
-    padding: 19px 31px;
+    padding: 16px 31px;
 }
-
-.logo_middle_body1{
-    position: absolute;
-    top: 30%;
-    left: 80%;
-}
-
-.content_body1{
-    left: 76%;
-}
-
-.midle_body2{
-    position:relative;
-    margin:10%;
-    padding:3%;
-}
-
-.midle_bg2{
-    position:absolute;
-    margin:5%;
-    right:5%;
-    width:40%;
-}
-
-.text_midle_body2{
-    position:absolute;
-    margin:5%;
-    padding:3%;
-    font-size:20px;
-    font-family: sans-serif;
-}
-
-.title_separator_body2{
-    margin-top: 2%;
-    margin-bottom: 4%;
-    background-color: #333;
-}
-
