@@ -19,7 +19,7 @@ h2 {
   /*Arrumar tamanho da fonte*/
 }
 
-hr{
+section > hr{
   width: 95%;
   margin-left: 2%;
 }
@@ -35,7 +35,7 @@ hr{
   justify-content:right;
 }
 
-div > p {
+.servicos_nomes{
 
   display: inline-block;
   vertical-align: top;
