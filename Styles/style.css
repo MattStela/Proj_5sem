@@ -14,6 +14,7 @@ li, a {
     text-decoration: none;
 }
 
+/*Estilos do menu inteiro*/
 header {
     background-color: black;
     align-items: center;
@@ -23,6 +24,7 @@ header {
     box-shadow: 0px 10px 10px black;
 }
 
+/*estilos do footer, da parte lá de baixo do site*/
 footer {
     background-color: gray;
     height: 80px;
@@ -30,6 +32,7 @@ footer {
 }
 
 /*====================== estilos de CLASSES ======================*/
+/*estilos dos links do menu*/
 .nav_links {
     list-style: none;
     width: 100%;
@@ -48,17 +51,19 @@ footer {
     color: gray;
 }
 
+/*estilo do logo geral*/
 .logo {
     width: 10%;
 }
 
+/* conteúdo da primeira parte do corpo */
+
+/*class da seção da primeira parte da primeira págiuna*/
 .container {
     position: relative;
     text-align: center;
     color: white;
 }
-
-/* conteúdo da primeira parte do corpo */
 
 .conteudo_esquerda {
 
