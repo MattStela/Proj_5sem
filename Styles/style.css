@@ -99,7 +99,7 @@ footer {
     width: 60%;
     height: 83%;
     left: 33%;
-    border: 1px solid red;
+    
 
 }
 
@@ -114,7 +114,7 @@ footer {
     transform: translate(-50%, -50%);
     width: 20%;
     height: 50%;
-    border: 1px solid rgb(15, 240, 45);
+   
 
 }
 
@@ -154,7 +154,7 @@ footer {
     margin-right: 0.5%;
     margin-left: 15%;
     margin-top: 10%;
-    border: 1px solid yellow;
+    
     text-align: left;
 }
 
