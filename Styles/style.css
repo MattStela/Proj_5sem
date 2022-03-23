@@ -24,12 +24,36 @@ header {
     box-shadow: 0px 10px 10px black;
 }
 
-/*estilos do footer, da parte lá de baixo do site*/
+/*estilos do footer, da parte lá de baixo do site
+*/
 footer {
-    background-color: gray;
-    height: 80px;
-    width: auto;
+    background-color: black;
+    color: white;
 }
+
+.footer_div{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer_div > p{
+  /*Arrumar Fonte*/
+  padding: 5px;
+  margin-left:  25px;
+  
+}
+
+.titulo_footer{
+  /*Arrumar Fonte*/
+  padding: 25px 30px 30px 30px;
+}
+
+.logo_footer {
+  padding: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 
 /*====================== estilos de CLASSES ======================*/
 /*estilos dos links do menu*/
