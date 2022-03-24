@@ -346,10 +346,42 @@ footer {
     padding-right: 5%;
 }
 
-.third_divisor{
+.third_divisor {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
     margin-bottom: 3%;
     width: 90%;
+}
+
+/*
+    Parte 5 do site
+    cne = conheça nossa equipe
+*/
+
+.big_div_cne {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+
+.div_esquerda_cne {
+    width: 45%;
+    height: 100%;
+}
+
+.div_direita_cne {
+    width: 55%;
+    height: 80%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: #000000;
+    color: white;
+    padding: 4.5%;
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: large;
 }
