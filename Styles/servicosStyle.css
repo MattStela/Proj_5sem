@@ -55,3 +55,31 @@ section > hr{
 .logo {
   width: 10%;
 }
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer_div{
+display: inline-block;
+vertical-align: top;
+}
+
+.footer_div > p{
+/*Arrumar Fonte*/
+padding: 5px;
+margin-left:  25px;
+
+}
+
+.titulo_footer{
+/*Arrumar Fonte*/
+padding: 25px 30px 30px 30px;
+}
+
+.logo_footer {
+padding: 40px;
+margin-left: 30px;
+margin-right: 30px;
+}
