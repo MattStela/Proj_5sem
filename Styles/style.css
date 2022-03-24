@@ -247,36 +247,38 @@ footer {
 }
 
 .big_div_srvc {
-    height: 500px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 550px;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-top: 1%;
     display: flex;
+
 }
 
 .little_divs_srvc {
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 29%;
+
+    width: 33.3%;
     height: 100%;
+
 
 }
 
 .micro_divs_srvc {
-    height: 40%;
+    height: 38%;
     width: 100%;
-    
     display: inline-flex;
+
 }
 
 .logo_our_srvc {
 
-    border: 3px solid rgb(209, 137, 137);
+    padding: 3%;
+
     height: 30%;
     width: 30%;
     text-align: center;
-    
+
 }
 
 .title_our_srvc {
@@ -284,36 +286,70 @@ footer {
     font-family: system-ui, system-ui, sans-serif;
     font-size: 185%;
     font-weight: 500;
-    color: rgb(182, 179, 179);
+    color: #edf0f1a1;
     margin-top: 3%;
     margin-bottom: 3%;
 }
 
 .text_our_srvc {
     height: 100%;
-    width: 70%;
+    width: 100%;
     display: inline-table;
 }
 
 .ttl_svc {
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 100%;
+    margin-top: 2%;
     height: 25%;
     width: 100%;
-    border: 3px solid rgb(211, 167, 209);
+
 }
 
 .txt_svc {
+
+    color: #edf0f1dc;
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 85%;
     height: 50%;
     width: 100%;
-    border: 3px solid rgb(136, 202, 223);
+    margin-bottom: 8%;
+
 }
 
 .know_more {
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 100%;
+    margin: 4%;
+    padding: 5%;
     height: 25%;
     width: 100%;
-    border: 3px solid rgb(136, 202, 223);
+
 }
 
 .black_background {
     background-color: black;
     color: white;
+}
+
+.button5 {
+    color: white;
+    font-family: sans-serif;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 12px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.third_divisor{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 90%;
 }
