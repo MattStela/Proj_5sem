@@ -1,0 +1,14 @@
+h1#cot {
+    color: #fff;
+    position: absolute;
+    top: 310px;
+    left: 570px;
+    font-family: system-ui, sans-serif;
+    font-size: 50px;
+}
+
+.ico {
+    text-align: center;
+    margin: 100px;
+    line-height: 40px;
+}
