@@ -70,15 +70,9 @@
 
 .title_MVV {
     text-align: center;
-
-   
-
-    margin-right: 10%;
-    margin-left: 10%;
     margin-top: 3%;
     margin-bottom: 3%;
-    font-size: 100%;
-    font-family: system-ui, sans-serif;
+    font-size: 118%;
     font-weight: bold;
 }
 
@@ -92,11 +86,11 @@
 }
 
 .subtitles_MVV {
-    font-size: 25px;
-    font-weight: bold;
     color: black;
     margin-left: 1%;
+    font-size: 118%;
     margin-bottom: 1%;
+    font-weight: bold;
 }
 
 .MVV {
@@ -106,24 +100,27 @@
     margin-bottom: 5%;
     height: 100%;
     width: 82%;
-    font-family: system-ui, sans-serif;
-    font-size: 18px;
     color: black;
 }
 
 .text_MVV{
     margin-bottom: 3%;
+
+    font-size: 118%;
+
 }
 
 .area_atuacao {
     text-align: left;
-    margin-right: 9%;
     margin-left: 9%;
     margin-top: 9%;
     margin-bottom: 9%;
+}
 
-    font-family: system-ui, sans-serif;
-    font-size: 18px;
+.title_area_atuacao{
+    font-size: 135%;
+    margin-bottom: 1%;
+    font-weight: bold;
 }
 
 .risquinho_area_atuacao {
@@ -133,5 +130,5 @@
 
     margin-top: 0.5%;
     margin-bottom: 3%;
-    width: 17%;    
+    width: 12.9%;    
 }
