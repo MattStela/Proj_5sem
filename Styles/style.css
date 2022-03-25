@@ -45,19 +45,6 @@ header {
 
 /*estilos do footer, da parte lá de baixo do site*/
 footer {
-<<<<<<< HEAD
-
-    background-color: black;
-    color: white;
-
-}
-
-.titulo_footer {
-
-    /*Arrumar Fonte*/
-    padding: 25px 30px 30px 30px;
-
-=======
   background-color: black;
   color: white;
 }
@@ -65,7 +52,6 @@ footer {
 .footer_div{
 display: inline-block;
 vertical-align: top;
->>>>>>> 0750388e18d2f8a8e12fbedd6a2ca4313821cf20
 }
 
 .footer_div > p{
