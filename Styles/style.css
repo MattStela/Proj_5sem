@@ -5,35 +5,57 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'lato-regular';
+    src: url('../fonts/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*====================== estilos de TAGS ======================*/
 li, a {
-    font-family: system-ui, system-ui, sans-serif;
-    font-size: 105%;
-    font-weight: 500;
+
+
     color: #edf0f1;
     text-decoration: none;
+
 }
 
 /*Estilos do menu inteiro*/
 header {
+
+    font-weight: bold;
+    font-family:  'lato-regular','poppins-medium', Arial, sans-serif;
+    padding: 1.5%;
     background-color: black;
     align-items: center;
     justify-content: space-between;
     display: flex;
-    padding: 15px 10%;
-    box-shadow: 0px 10px 10px black;
+    
+    box-shadow: 0px 5px 10px black;
 
 }
 
 /*estilos do footer, da parte lá de baixo do site*/
 footer {
+
     background-color: black;
     color: white;
+
 }
 
 .titulo_footer {
+
     /*Arrumar Fonte*/
     padding: 25px 30px 30px 30px;
+
 }
 
 .logo_footer {
@@ -44,16 +66,35 @@ footer {
 
 
 /*====================== estilos de CLASSES ======================*/
-/*estilos do menu*/
+/*estilo do logo geral*/
+.logo {
 
-.nav_menu{
-    margin-right:5%;
+    width: 15%;
+ 
+    display: flex;
+
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*estilos do menu*/
+.nav_menu {
+    
+   
+    font-size: 90%;
+    width: 85%;
+    text-align: right;
+    margin-left: -15%;
+    margin-right: 10%;
+    
+    
+
 }
 
 .nav_links {
     list-style: none;
-    width: 100%;
-    font-size: 70%;
+    font-size: 85%;
 }
 
 .nav_links li {
@@ -69,13 +110,7 @@ footer {
     color: gray;
 }
 
-/*estilo do logo geral*/
-.logo {
-    width: 20%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+
 
 /* conteúdo da primeira parte do corpo */
 
@@ -101,6 +136,7 @@ footer {
 
 .conteudo_direita {
 
+    border: 3px solid white;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -125,7 +161,7 @@ footer {
     background-color: #FFFFFF30;
     border-radius: 5px;
     border: 3px solid white;
-    font-family: Arial;
+    font-family:  'lato-regular','poppins-medium', Arial, sans-serif;
     font-size: 100%;
     padding: 9px 20px;
 }
@@ -151,7 +187,9 @@ footer {
     margin-top: 10%;
     text-align: left;
     font-size: 68%;
-    
+    font-family: 'poppins-medium', 'lato-regular', Arial, sans-serif;
+
+
 }
 
 .first_divisor {
@@ -257,6 +295,7 @@ footer {
 }
 
 .big_div_srvc {
+
     height: 550px;
     width: 92%;
     margin-left: 4%;
@@ -264,8 +303,6 @@ footer {
     margin-top: 1%;
     margin-bottom: 4%;
     display: flex;
-    
-  
 
 }
 
@@ -278,6 +315,7 @@ footer {
 }
 
 .micro_divs_srvc {
+
     height: 38%;
     width: 100%;
     display: inline-flex;
@@ -295,6 +333,7 @@ footer {
 }
 
 .title_our_srvc {
+
     text-align: center;
     font-family: system-ui, system-ui, sans-serif;
     font-size: 185%;
@@ -305,12 +344,14 @@ footer {
 }
 
 .text_our_srvc {
+
     height: 100%;
     width: 100%;
     display: inline-table;
 }
 
 .ttl_svc {
+
     font-family: system-ui, system-ui, sans-serif;
     font-size: 100%;
     margin-top: 2%;
@@ -344,7 +385,7 @@ footer {
     background-color: black;
     color: white;
 
-  
+
 }
 
 .button5 {
@@ -408,7 +449,7 @@ footer {
     border: 3px solid red;
 }
 
-.inputs_ecc{
+.inputs_ecc {
     border-radius: 6px;
     display: inline-block;
 
@@ -418,8 +459,9 @@ footer {
     text-indent: 15px;
     border: 2px solid gray;
 }
-.input_submit{
-  font-family: sans-serif;
+
+.input_submit {
+    font-family: sans-serif;
     background-color: #000000;
     border-radius: 5px;
     border: 3px solid rgb(0, 0, 0);
