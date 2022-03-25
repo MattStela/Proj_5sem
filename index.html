@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/icones/inicio.png" type="image/icon type">
+    <link rel="icon" href="images/icones/titles/inicio.png" type="image/icon type">
     <link rel="stylesheet" href="Styles/style.css">
     <title>Início</title>
 </head>
@@ -14,8 +14,10 @@
     <!--MENU-->
     <section>
         <header>
-            <img width="100" class="logo" src="images/Logo/logo.svg" alt="logo">
-            <nav>
+            <div class="logo">
+                <img width="80" src="images/Logo/logo.svg" alt="logo">
+            </div>
+            <nav class="nav_menu">
                 <ul class="nav_links">
                     <li><a href="#">Início</a></li>
                     <li><a href="./views/sobre-a-empresa.html">Sobre a empresa</a></li>
@@ -24,6 +26,7 @@
                     <li><a href="./views/contato.html">Contato</a></li>
                 </ul>
             </nav>
+
         </header>
     </section>
     <!--======================================== 1ª parte da página inicial ========================================-->
@@ -41,7 +44,7 @@
 
         <!--logo da página inicial lá no começo-->
         <div class="conteudo_direita">
-            <img src="images/Logo/logo.svg" alt="logo" width="200">
+            <img src="images/Logo/logo.svg" alt="logo" width="60%">
         </div>
 
         <!--banner da página inicial-->
@@ -103,7 +106,7 @@
             <div class="little_divs_srvc">
                 <div class="micro_divs_srvc">
                     <div class="logo_our_srvc">
-                        logo1
+                        <img src="images/icones/index/ux_design.svg" alt="ux">
                     </div>
                     <div class="text_our_srvc">
 
@@ -130,7 +133,7 @@
             <div class="little_divs_srvc">
                 <div class="micro_divs_srvc" style="margin-bottom:30%;">
                     <div class="logo_our_srvc">
-                        logo2
+                        <img src="images/icones/index/programacao.svg" alt="prog">
                     </div>
                     <div class="text_our_srvc">
 
@@ -152,7 +155,7 @@
                 </div>
                 <div class="micro_divs_srvc">
                     <div class="logo_our_srvc">
-                        logo4
+                        <img src="images/icones/index/gestao_projeto.svg" alt="gesp">
                     </div>
                     <div class="text_our_srvc">
 
@@ -180,7 +183,7 @@
             <div class="little_divs_srvc">
                 <div class="micro_divs_srvc">
                     <div class="logo_our_srvc">
-                        logo1
+                        <img src="images/icones/index/lideranca.svg" alt="lid">
                     </div>
                     <div class="text_our_srvc">
 
@@ -243,17 +246,17 @@
         <h3>Entre em contato conosco!</h3><br>
         <p>Estamos sempre prontos para atender você!</p>
     </div>
-    
+
     <form action="/action_page.php" class="form_ecc">
 
-      
+
         <input placeholder="Nome*" class="inputs_ecc" type="text" id="fname" name="fname">
 
-        
+
         <input placeholder="Telefone*" class="inputs_ecc" type="text" id="lname" name="lname"><br>
-        
+
         <input class="input_submit" type="submit" value="Enviar">
-      </form>
+    </form>
 
 
 

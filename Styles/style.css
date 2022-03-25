@@ -20,8 +20,9 @@ header {
     align-items: center;
     justify-content: space-between;
     display: flex;
-    padding: 30px 10%;
+    padding: 15px 10%;
     box-shadow: 0px 10px 10px black;
+
 }
 
 /*estilos do footer, da parte lá de baixo do site*/
@@ -43,10 +44,16 @@ footer {
 
 
 /*====================== estilos de CLASSES ======================*/
-/*estilos dos links do menu*/
+/*estilos do menu*/
+
+.nav_menu{
+    margin-right:5%;
+}
+
 .nav_links {
     list-style: none;
     width: 100%;
+    font-size: 70%;
 }
 
 .nav_links li {
@@ -64,7 +71,10 @@ footer {
 
 /*estilo do logo geral*/
 .logo {
-    width: 10%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 /* conteúdo da primeira parte do corpo */
@@ -95,12 +105,11 @@ footer {
     align-items: center;
     display: flex;
     position: absolute;
-    top: 50%;
-    left: 75%;
+    top: 45%;
+    left: 76.5%;
     transform: translate(-50%, -50%);
     width: 20%;
     height: 50%;
-
 
 }
 
@@ -117,8 +126,8 @@ footer {
     border-radius: 5px;
     border: 3px solid white;
     font-family: Arial;
-    font-size: 17px;
-    padding: 16px 31px;
+    font-size: 100%;
+    padding: 9px 20px;
 }
 
 .button2 {
@@ -130,8 +139,8 @@ footer {
     border-radius: 5px;
     border: 3px solid rgb(0, 0, 0);
     font-family: Arial;
-    font-size: 17px;
-    padding: 16px 31px;
+    font-size: 100%;
+    padding: 9px 20px;
 }
 
 .text_body1 {
@@ -140,8 +149,9 @@ footer {
     margin-right: 0.5%;
     margin-left: 15%;
     margin-top: 10%;
-
     text-align: left;
+    font-size: 68%;
+    
 }
 
 .first_divisor {
@@ -252,7 +262,10 @@ footer {
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 1%;
+    margin-bottom: 4%;
     display: flex;
+    
+  
 
 }
 
@@ -330,6 +343,8 @@ footer {
 .black_background {
     background-color: black;
     color: white;
+
+  
 }
 
 .button5 {
