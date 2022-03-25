@@ -47,29 +47,38 @@ header {
 footer {
     background-color: black;
     color: white;
+    height: 100%;
 }
 
 .footer_div {
+    
     display: inline-block;
     vertical-align: top;
 }
 
 .footer_div>p {
+    
     /*Arrumar Fonte*/
+    font-family: 'lato-regular';
+    font-size: 70%;
+
     padding: 5px;
     margin-left: 25px;
 
 }
 
 .titulo_footer {
+    
     /*Arrumar Fonte*/
-    padding: 25px 30px 30px 30px;
+    font-family: 'poppins-medium';
+    font-size: 90%;
+    padding: 25px 30px 8px 30px;
 }
 
 .logo_footer {
     padding: 40px;
     margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 0%;
 }
 
 /*====================== estilos de CLASSES ======================*/
@@ -501,9 +510,11 @@ footer {
     background-color: #000000;
     border-radius: 5px;
     border: 3px solid rgb(0, 0, 0);
-    font-family: Arial;
-    font-size: 17px;
-    padding: 10px 0px 10px 0px;
+    font-family: 'lato-regular';
+    font-size: 90%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-bottom: 13%;
     color: white;
     width: 15%;
 }
