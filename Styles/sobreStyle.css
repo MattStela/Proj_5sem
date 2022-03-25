@@ -1,16 +1,10 @@
 /*exemplo de como centralizar conteúdo em uma div*/
 .sobre_a_empresa_div {
     position: absolute;
-    top: 10%;
 
-    /*apagar borda de teste*/
-    border: 1px solid rgb(243, 237, 237);
-
-    margin-top: 10%;
-    margin-right: 3%;
-    margin-left: 3%;
-    width: 94%;
-    height: 55%;
+    
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,28 +19,18 @@
     align-items: center;
     justify-content: center;
 
-    /*apagar borda de teste*/
-    border: 1px solid rgb(5, 5, 5);
-
-    margin-right: 10%;
-    margin-left: 10%;
+    
     margin-top: 3%;
-    margin-bottom: 3%;
-    font-size: 23px;
-    font-family: system-ui, sans-serif;
+    margin-bottom: 1%;
+    font-size: 22px;
     font-weight: bold;
 }
 
 .conheca_nossa_empresa {
 
-    /*apagar borda de teste*/
-    border: 1px solid rgb(5, 5, 5);
-
-    margin-right: 3%;
-    margin-left: 3%;
     margin-bottom: 5%;
     height: 100%;
-    width: 94%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,15 +38,13 @@
 
 .bloco_esquerda {
     font-size: 110%;
-    font-family: system-ui, sans-serif;
     height: 95%;
-    margin-left: 6%;
+    margin-left: 4%;
     margin-top: 3%;
     margin-bottom: 3%;
-    width: 100%;
+    width: 50%;
 
-    /*apagar borda de teste*/
-    border: 1px solid rgb(77, 29, 56);
+   
 
 }
 
@@ -72,27 +54,24 @@
     justify-content: center;
     margin-right: 3%;
     height: 95%;
-    margin-left: 3%;
     margin-top: 3%;
     margin-bottom: 3%;
-    width: 80%;
+    width: 30%;
 
-    /*apagar borda de teste*/
-    border: 1px solid rgb(77, 29, 56);
+    
 }
 
 .risquinho_descricao {
     background-color: rgba(0, 0, 0, 0.993);
-    margin-top: 0.5%;
+    margin-top: 1%;
     margin-bottom: 3%;
     width: 25%;
 }
 
-.MVV {
+.title_MVV {
     text-align: center;
 
-    /*apagar borda de teste*/
-    border: 1px solid rgb(5, 5, 5);
+   
 
     margin-right: 10%;
     margin-left: 10%;
@@ -117,12 +96,10 @@
     font-weight: bold;
     color: black;
     margin-left: 1%;
+    margin-bottom: 1%;
 }
 
-.text_MVV {
-
-    /*apagar borda de teste*/
-    border: 1px solid rgb(5, 5, 5);
+.MVV {
 
     margin-right: 9%;
     margin-left: 9%;
@@ -134,16 +111,16 @@
     color: black;
 }
 
+.text_MVV{
+    margin-bottom: 3%;
+}
+
 .area_atuacao {
     text-align: left;
-
-    /*apagar borda de teste*/
-    border: 1px solid rgb(5, 5, 5);
-
     margin-right: 9%;
     margin-left: 9%;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 9%;
+    margin-bottom: 9%;
 
     font-family: system-ui, sans-serif;
     font-size: 18px;
