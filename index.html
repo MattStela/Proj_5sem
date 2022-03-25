@@ -12,7 +12,7 @@
 
 <body>
     <!--MENU-->
-    <section>
+    <section >
         <header>
             <div class="logo">
                 <img width="65%" src="images/Logo/logo.svg" alt="logo">
@@ -30,62 +30,63 @@
         </header>
     </section>
     <!--======================================== 1ª parte da página inicial ========================================-->
-    <section class="container">
-        <div class="conteudo_esquerda">
-            <div class="text_body1">
-                <h1>
-                    UMA EMPRESA ESPECIALIZADA EM<br>
-                    DESENVOLVIMENTO DE SOFTWARE
-                </h1>
-                <button class="button1">Conheça o grupo</button>
-                <button class="button2">Serviços →</button>
+    
+        <section>
+            <div class="conteudo_esquerda">
+                <div class="text_body1">
+                    <h1>
+                        UMA EMPRESA ESPECIALIZADA EM<br>
+                        DESENVOLVIMENTO DE SOFTWARE
+                    </h1>
+                    <button class="button1">Conheça o grupo</button>
+                    <button class="button2">Serviços →</button>
+                </div>
             </div>
-        </div>
 
-        <!--logo da página inicial lá no começo-->
-        <div class="conteudo_direita">
-            <img src="images/Logo/logo.svg" alt="logo" width="60%">
-        </div>
+            <!--logo da página inicial lá no começo-->
+            <div class="conteudo_direita">
+                <img src="images/Logo/logo.svg" alt="logo" width="60%">
+            </div>
 
-        <!--banner da página inicial-->
+            <!--banner da página inicial-->
 
-        <img width="100%" src="images/Pagina Inicial/banner_pag_inicial.png" alt="banner1">
+            <img width="100%" src="images/Pagina Inicial/banner_pag_inicial.png" alt="banner1"><br>
 
-    </section>
+        </section>
 
-    <hr class="first_divisor">
-    <!--======================================== 2ª parte da página inicial - Sobre a empresa ==================-->
-    <section>
-        <!--sobre a empresa, bloco da esquerda-->
-        <div class="sobre_a_empresa_esquerda">
-            <h1>Sobre a empresa</h1>
-            <hr size="7%" class="risquinho">
-            <p>
-                A empresa Good Freelas foi criada a partir de um <br>
-                grupo acadêmico, oferece serviços aos seus<br>
-                clientes com base nas características e habilidades<br>
-                dos integrantes da equipe, visando mostrar<br>
-                às grandes empresas as competências de cada um<br>
-                de seus integrantes de maneira profissional.<br>
-                A Good Freelas procura de forma competitiva,<br>
-                entregar da melhor maneira e de forma ágil<br>
-                seus serviços, buscando sempre a evolução de<br>
-                seus integrantes e do melhor produto possível<br>
-                ao cliente<br><br><br>
+        <hr class="first_divisor">
+        <!--======================================== 2ª parte da página inicial - Sobre a empresa ==================-->
+        <section class="conteudo_sobre_a_empresa">
+            <!--sobre a empresa, bloco da esquerda-->
+            <div class="sobre_a_empresa_esquerda">
+                <h1 class="ttl_sobre_a_empresa">Sobre a empresa</h1>
+                <hr size="6%" class="risquinho">
+                <p class="txt_sobre_a_empresa">
+                    A empresa Good Freelas foi criada a partir de um <br>
+                    grupo acadêmico, oferece serviços aos seus<br>
+                    clientes com base nas características e habilidades<br>
+                    dos integrantes da equipe, visando mostrar<br>
+                    às grandes empresas as competências de cada um<br>
+                    de seus integrantes de maneira profissional.<br>
+                    A Good Freelas procura de forma competitiva,<br>
+                    entregar da melhor maneira e de forma ágil<br>
+                    seus serviços, buscando sempre a evolução de<br>
+                    seus integrantes e do melhor produto possível<br>
+                    ao cliente<br><br>
 
-            </p>
-            <button class="button3">Leia mais →</button>
-        </div>
+                </p>
+                <button class="button3">Leia mais →</button>
+            </div>
 
+            <!--sobre a empresa, bloco da direita-->
+            <div class="sobre_a_empresa_direita">
+                <img style="margin-left: -15%; margin-top: 7%;" width="100%" src="images/Pagina Inicial/avel-chuklanov-DUmFLtMeAbQ-unsplash 1.png" alt="pc_girl">
+            </div>
 
-        <!--sobre a empresa, bloco da direita-->
-        <div align="center" class="sobre_a_empresa_direita">
-            <img width="380" src="images/Pagina Inicial/avel-chuklanov-DUmFLtMeAbQ-unsplash 1.png" alt="">
-        </div>
+        </section>
+    
 
-    </section>
-
-    <!--======================================== 3ª parte da página inicial - Entre em contato=====================-->
+    <!--======================================== 3ª parte da página inicial - Entre em contato =====================-->
     <hr class="second_divisor">
 
     <div class="black_background">
@@ -250,45 +251,45 @@
 
     <form action="/action_page.php" class="form_ecc">
 
-      <div  class="form_row_1">
-        <input placeholder="Nome*" class="inputs_ecc" type="text" id="fname" name="fname">
-        <input placeholder="Telefone*" class="inputs_ecc" type="text" id="lname" name="lname">
-      </div>
-      <div class="form_row_2">
-        <input placeholder="E-mail*" class="inputs_ecc" type="email" id="lemail" name="lemail">
-        <input placeholder="Cidade*" class="inputs_ecc" type="text" id="lcidade" name="lcidade">
-      </div>
-      <div class="form_row_3 ">
-        <input placeholder="Mensagem*" class="inputs_ecc form_message"  type="text" id="lmensagem" name="lmensagem">
-      </div>
+        <div class="form_row_1">
+            <input placeholder="Nome*" class="inputs_ecc" type="text" id="fname" name="fname">
+            <input placeholder="Telefone*" class="inputs_ecc" type="text" id="lname" name="lname">
+        </div>
+        <div class="form_row_2">
+            <input placeholder="E-mail*" class="inputs_ecc" type="email" id="lemail" name="lemail">
+            <input placeholder="Cidade*" class="inputs_ecc" type="text" id="lcidade" name="lcidade">
+        </div>
+        <div class="form_row_3 ">
+            <input placeholder="Mensagem*" class="inputs_ecc form_message" type="text" id="lmensagem" name="lmensagem">
+        </div>
 
         <input class="input_submit" type="submit" value="Enviar">
     </form>
 
     <footer>
-      <img class="logo_footer" src="../images/Logo/logo.svg" alt="logo">
-      <div class="footer_div">
-        <h3 class="titulo_footer">Informacoes</h3>
-        <p>Quem Somos</p>
-        <p>Serviços</p>
-        <p>Contatos</p>
-      </div>
-      <div class="footer_div">
-        <h3 class="titulo_footer">Termos e Privacidade</h3>
-        <p>Politicas de Privacidade</p>
-        <h3 class="titulo_footer">Redes Sociais</h3>
-      <!--
+        <img class="logo_footer" src="../images/Logo/logo.svg" alt="logo">
+        <div class="footer_div">
+            <h3 class="titulo_footer">Informacoes</h3>
+            <p>Quem Somos</p>
+            <p>Serviços</p>
+            <p>Contatos</p>
+        </div>
+        <div class="footer_div">
+            <h3 class="titulo_footer">Termos e Privacidade</h3>
+            <p>Politicas de Privacidade</p>
+            <h3 class="titulo_footer">Redes Sociais</h3>
+            <!--
         Falta Colocar os icones de rede sociais
       -->
-      </div>
-      <div class="footer_div">
-        <h3 class="titulo_footer">Fale Conosco</h3>
-         <!--
+        </div>
+        <div class="footer_div">
+            <h3 class="titulo_footer">Fale Conosco</h3>
+            <!--
           Falta Colocar os icones de `fale conosco`
         -->
-      </div>
-      <hr>
-      <p style="line-height: 20px; padding: 30px;">© 2022 todos direitos reservados</p>
+        </div>
+        <hr>
+        <p style="line-height: 20px; padding: 30px;">© 2022 todos direitos reservados</p>
     </footer>
 
 
