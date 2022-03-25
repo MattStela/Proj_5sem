@@ -1,3 +1,12 @@
+header {
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 30px 10%;
+  box-shadow: 0px 10px 10px black;
+}
+
 h1 {
   margin-left: 50%;
   margin-top: 20%;
@@ -10,7 +19,7 @@ h2 {
   /*Arrumar tamanho da fonte*/
 }
 
-hr{
+section > hr{
   width: 95%;
   margin-left: 2%;
 }
@@ -26,7 +35,7 @@ hr{
   justify-content:right;
 }
 
-div > p {
+.servicos_nomes{
 
   display: inline-block;
   vertical-align: top;
@@ -41,4 +50,36 @@ div > p {
   display: inline-block;
   width: 500px;
   margin-bottom: 50px; 
+}
+
+.logo {
+  width: 10%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer_div{
+display: inline-block;
+vertical-align: top;
+}
+
+.footer_div > p{
+/*Arrumar Fonte*/
+padding: 5px;
+margin-left:  25px;
+
+}
+
+.titulo_footer{
+/*Arrumar Fonte*/
+padding: 25px 30px 30px 30px;
+}
+
+.logo_footer {
+padding: 40px;
+margin-left: 30px;
+margin-right: 30px;
 }
