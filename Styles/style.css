@@ -135,16 +135,17 @@ footer {
 }
 
 .conteudo_direita {
-
+    
+    
     justify-content: center;
     align-items: center;
     display: flex;
     position: absolute;
-    top: 45%;
-    left: 76.5%;
-    transform: translate(-50%, -50%);
+   
+    left: 67%;
+
     width: 20%;
-    height: 50%;
+    height: 63%;
 
 
 
@@ -289,6 +290,8 @@ footer {
 
 .la_em_baixo {
     position: relative;
+    height: 100%;
+
 }
 
 .entre_em_contato_risquinho {
@@ -310,19 +313,20 @@ footer {
     border: 3px solid rgb(0, 0, 0);
     font-family: Arial;
     font-size: 17px;
-    padding: 8px 31px;
-    margin-top: 4%;
+    padding: 0.5% 2%;
+    margin-top: 2%;
 
 }
 
 .big_div_srvc {
 
-    height: 550px;
+    height: 100%;
     width: 92%;
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 1%;
     margin-bottom: 4%;
+    padding-bottom: 2%;
     display: flex;
 
 }
@@ -420,6 +424,7 @@ footer {
     padding-bottom: 1%;
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 8%;
 }
 
 .third_divisor {
@@ -507,3 +512,12 @@ footer {
 .form_row_1 {
     margin-top: 50px;
 }
+
+.cne_ttl{
+    margin-bottom: 7%;
+}
+
+.cne_txt{
+    margin-bottom: 7%;
+}
+
