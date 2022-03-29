@@ -133,7 +133,7 @@ footer {
 /*class da seção da primeira parte da primeira página*/
 
 .UEEDDS{
-    border:3px solid blue; 
+
     display: flex;
     height: 100%;
 }
@@ -147,12 +147,11 @@ footer {
     width: 100%;
     height: 67%;
 
-    border: 3px solid red;
 }
 
 .conteudo_direita {
 
-    border: 3px solid pink;
+
     text-align: center;
     position: absolute;
     right: 0%;
@@ -214,9 +213,6 @@ footer {
 
 .conteudo_sobre_a_empresa {
 
-    /* apagar */
-    border: 3px solid rgb(228, 155, 206);
-
     display: flex;
     width: 100%;
 }
@@ -251,6 +247,11 @@ footer {
     margin-top: 2%;
     margin-right: auto;
 
+}
+
+.img_SAED{
+    margin-left: -15%;
+    margin-top: 7%;
 }
 
 .risquinho {
@@ -540,17 +541,8 @@ footer {
 
 @media screen and (max-width: 450px) {
 
-    /* teste */
-    body {
-        background-color: pink;
-    }
-
     .conteudo_sobre_a_empresa {
         display: list-item;
-    }
-
-    .UEEDDS{
-        border:3px solid blue;
     }
     
     .conteudo_esquerda {
@@ -561,12 +553,11 @@ footer {
         position: absolute;
         width: 100%;
         height: 67%;
-        border: 3px solid red;
+ 
     }
     
     .conteudo_direita {
-    
-        border: 3px solid pink;
+
         text-align: center;
         position: absolute;
         right: 0%;
@@ -574,7 +565,6 @@ footer {
         height: 67%;
         padding-top: 7%;
         
-      
     }
 
     .text_body1 {
@@ -641,6 +631,99 @@ footer {
         font-family: Arial;
         font-size: 100%;
         padding: 5px 15px;
+    }
+
+    .conteudo_sobre_a_empresa {
+
+        display:inline-table;
+        width: 100%;
+        text-align: left;
+        margin-left:15%;
+        margin-right:15%;
+    }
+    
+    .sobre_a_empresa_esquerda {
+        margin-left: auto;
+        width: 100%;
+        height: 100%;
+        font-size: 75%;
+    }
+    
+    .ttl_sobre_a_empresa {
+        font-family: 'lato-regular';
+        font-weight: normal;
+    }
+    
+    .txt_sobre_a_empresa {
+        font-family: 'poppins-medium';
+        font-weight: bold;
+        font-size: 80%;
+    }
+    
+    .sobre_a_empresa_direita {
+    
+        /*apagar borda de teste*/
+        border: 0px rgb(253, 253, 253);
+        background-color: #ffffff;
+        width: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .img_SAED{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    
+    .risquinho {
+        background-color: rgba(0, 0, 0, 0.993);
+        margin-top: 1%;
+        margin-bottom: 4%;
+        width: 10%;
+    }
+
+    .button3 {
+        color: white;
+        font-family: sans-serif;
+        background-color: #000000;
+        border-radius: 5px;
+        border: 3px solid rgb(0, 0, 0);
+        font-family: Arial;
+        font-size: 70%;
+        padding: 0.5% 3%;
+        margin-bottom: 0%;
+    }
+
+    .first_divisor {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        width: 90%;
+    }
+    
+    .second_divisor {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        margin-bottom: 5%;
+        width: 90%;
+    }
+    
+    .entre_em_contato {
+
+        border: 3px solid pink;
+        font-family: 'poppins-medium';
+        font-weight: bold;
+        font-size: 70%;
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        text-align: center;
+    
     }
 
 }
