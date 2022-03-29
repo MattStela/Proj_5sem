@@ -81,9 +81,10 @@ footer {
 }
 
 .logo_footer {
-    padding: 40px;
     margin-left: 30px;
     margin-right: 0%;
+    margin-bottom: 30px;
+    height: 140px;
 }
 
 /*====================== estilos de CLASSES ======================*/
