@@ -132,7 +132,7 @@ footer {
 
 /*class da seção da primeira parte da primeira página*/
 
-.UEEDDS{
+.UEEDDS {
 
     display: flex;
     height: 100%;
@@ -158,8 +158,8 @@ footer {
     width: 40%;
     height: 67%;
     padding-top: 7%;
-    
-  
+
+
 }
 
 /*==================================================*/
@@ -249,7 +249,7 @@ footer {
 
 }
 
-.img_SAED{
+.img_SAED {
     margin-left: -15%;
     margin-top: 7%;
 }
@@ -544,7 +544,7 @@ footer {
     .conteudo_sobre_a_empresa {
         display: list-item;
     }
-    
+
     .conteudo_esquerda {
 
         color: #edf0f1;
@@ -553,9 +553,9 @@ footer {
         position: absolute;
         width: 100%;
         height: 67%;
- 
+
     }
-    
+
     .conteudo_direita {
 
         text-align: center;
@@ -564,7 +564,7 @@ footer {
         width: 40%;
         height: 67%;
         padding-top: 7%;
-        
+
     }
 
     .text_body1 {
@@ -573,7 +573,7 @@ footer {
         padding-right: 43%;
         text-align: center;
         font-family: 'poppins-medium', 'lato-regular', Arial, sans-serif;
-    
+
     }
 
     /*estilos do menu*/
@@ -619,9 +619,9 @@ footer {
         font-size: 100%;
         padding: 5px 15px;
     }
-    
+
     .button2 {
-    
+
         top: 60%;
         color: white;
         font-family: sans-serif;
@@ -635,33 +635,33 @@ footer {
 
     .conteudo_sobre_a_empresa {
 
-        display:inline-table;
+        display: inline-table;
         width: 100%;
         text-align: left;
-        margin-left:15%;
-        margin-right:15%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
-    
+
     .sobre_a_empresa_esquerda {
         margin-left: auto;
         width: 100%;
         height: 100%;
         font-size: 75%;
     }
-    
+
     .ttl_sobre_a_empresa {
         font-family: 'lato-regular';
         font-weight: normal;
     }
-    
+
     .txt_sobre_a_empresa {
         font-family: 'poppins-medium';
         font-weight: bold;
         font-size: 80%;
     }
-    
+
     .sobre_a_empresa_direita {
-    
+
         /*apagar borda de teste*/
         border: 0px rgb(253, 253, 253);
         background-color: #ffffff;
@@ -670,11 +670,11 @@ footer {
         margin-bottom: 0%;
     }
 
-    .img_SAED{
+    .img_SAED {
         margin-left: 0%;
         margin-top: 0%;
     }
-    
+
     .risquinho {
         background-color: rgba(0, 0, 0, 0.993);
         margin-top: 1%;
@@ -701,7 +701,7 @@ footer {
         margin-bottom: 3%;
         width: 90%;
     }
-    
+
     .second_divisor {
         margin-left: auto;
         margin-right: auto;
@@ -709,10 +709,8 @@ footer {
         margin-bottom: 5%;
         width: 90%;
     }
-    
-    .entre_em_contato {
 
-        border: 3px solid pink;
+    .entre_em_contato {
         font-family: 'poppins-medium';
         font-weight: bold;
         font-size: 70%;
@@ -723,7 +721,81 @@ footer {
         top: 0%;
         left: 0%;
         text-align: center;
-    
     }
 
+    .button4 {
+        top: 0%;
+        color: white;
+        font-family: sans-serif;
+        background-color: #000000;
+        border-radius: 0px;
+        border: 0px rgb(0, 0, 0);
+        font-family: Arial;
+        font-size: 0px;
+        padding: 0%;
+        margin-top: 0%;
+    }
+
+    .big_div_srvc {
+        height: 100%;
+        width: 92%;
+        padding-bottom: 0%;
+        display: inline-block;
+    }
+
+    .little_divs_srvc {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .micro_divs_srvc {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 100%;
+        width: 100%;
+        display: inline-flex;
+    }
+
+    .logo_our_srvc {
+        height: 70%;
+        width: 40%;
+        text-align: center;
+    }
+
+    .title_our_srvc {
+        text-align: center;
+        font-family: system-ui, system-ui, sans-serif;
+        font-size: 185%;
+        font-weight: 500;
+        color: #edf0f1a1;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .text_our_srvc {
+        margin-top: 0%;
+        height: 100%;
+        width: 100%;
+        display: inline-table;
+    }
+
+    .ttl_svc {
+        font-family: system-ui, system-ui, sans-serif;
+        font-size: 100%;
+        margin-top: 2%;
+        height: 25%;
+        width: 100%;
+    }
+
+    .txt_svc {
+        color: #edf0f1dc;
+        font-family: system-ui, system-ui, sans-serif;
+        font-size: 85%;
+        height: 50%;
+        width: 100%;
+        margin-bottom: 8%;
+    }
 }
