@@ -50,25 +50,28 @@ header {
 
 /*estilos do footer, da parte lá de baixo do site*/
 footer {
+   
+
+    
     background-color: black;
     color: white;
     height: 100%;
+    width: 100%;
 }
 
 .footer_div {
 
     display: inline-block;
     vertical-align: top;
+    width: 25%;
+    height: 100%;
 }
 
 .footer_div>p {
 
-    /*Arrumar Fonte*/
     font-family: 'lato-regular';
     font-size: 70%;
-
-    padding: 5px;
-    margin-left: 25px;
+    margin-left: 10%;
 
 }
 
@@ -76,8 +79,9 @@ footer {
 
     /*Arrumar Fonte*/
     font-family: 'poppins-medium';
-    font-size: 90%;
-    padding: 25px 30px 8px 30px;
+    font-size: 100%;
+    padding-left: 10%;
+    padding-top: 10%;
 }
 
 .logo_footer {
@@ -536,8 +540,15 @@ footer {
     margin-bottom: 7%;
 }
 
+.ttl_div_form {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
 /* =========================================================
-        teste de responsividade com galaxy S8 plus */
+        teste de responsividade */
 
 @media screen and (max-width: 450px) {
 
@@ -798,4 +809,87 @@ footer {
         width: 100%;
         margin-bottom: 8%;
     }
+
+    .third_divisor {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 90%;
+    }
+
+    .div_esquerda_cne {
+        width: 100%;
+        height: 100%;
+        margin-right: -60%;
+    }
+
+    .div_direita_cne {
+        width: 55%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        background-color: #000000;
+        color: white;
+        padding: 4.5%;
+        font-family: system-ui, system-ui, sans-serif;
+        font-size: large;
+    }
+
+
+    /* Estilos dos inputs no formulário */
+    input[type=text] {
+        width: 100%;
+        background-color: #e4e4e4;
+        color: rgb(0, 0, 0);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    input[type=email] {
+        width: 100%;
+        background-color: #e4e4e4;
+        color: rgb(0, 0, 0);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .input_submit {
+        width: 70px;
+        border-radius: 20px;
+    }
+
+    /* FOOTER */
+
+    .footer_div {
+        vertical-align: top;
+        width: 32%;
+        height: 400px;
+    }
+
+    .logo_footer {
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0%;
+        width: 0;
+    }
+
+    .titulo_footer {
+
+        /*Arrumar Fonte*/
+        font-family: 'poppins-medium';
+        font-size: 55%;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+
 }
