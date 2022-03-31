@@ -320,7 +320,11 @@ footer {
     color: #ffffff;
     position: absolute;
     top: 0%;
+    bottom: 2%;
     left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 
 }
@@ -332,15 +336,16 @@ footer {
 }
 
 .ali_na_meiuca {
+    
     position: relative;
     height: 100%;
 }
 
 .entre_em_contato_risquinho {
+
     width: 78%;
     margin-left: 11%;
     margin-right: 11%;
-    margin-top: 3.5%;
     margin-bottom: 3%;
     background-color: white;
 }
@@ -391,8 +396,7 @@ footer {
 
 .logo_our_srvc {
 
-    padding: 3%;
-
+    padding-right: 5%;
     height: 30%;
     width: 30%;
     text-align: center;
@@ -430,6 +434,8 @@ footer {
 
 .txt_svc {
 
+    padding: 2%;
+    padding-right: 10%;
     color: #edf0f1dc;
     font-family: system-ui, system-ui, sans-serif;
     font-size: 85%;
