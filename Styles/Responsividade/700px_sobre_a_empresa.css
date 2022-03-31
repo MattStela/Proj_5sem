@@ -1,0 +1,143 @@
+/* Responsividade em até 700px de largura */
+
+@media screen and (max-width: 700px) {
+
+    .logo {
+        width: 15%;
+        display: flex;
+        margin-left: 3%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*estilos do menu*/
+    .nav_menu {
+        font-size: 50%;
+        width: 85%;
+        text-align: right;
+        margin-left: -5%;
+        margin-right: 5%;
+    }
+
+    .nav_links {
+        list-style: none;
+        font-size: 90%;
+    }
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 5px;
+    }
+
+    .nav_links li a {
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav_links li a:hover {
+        color: gray;
+    }
+
+
+    .bloco_direita {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 0%;
+        width: 0%;
+    }
+
+    .bloco_esquerda {
+        font-size: 70%;
+        height: 95%;
+        width: 80%;
+    }
+
+    .sobre_a_empresa_div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 150%;
+        color: rgb(255, 255, 255);
+        font-family: system-ui, sans-serif;
+        font-weight: bold;
+    }
+
+    .footer_div {
+        vertical-align: top;
+        width: 32%;
+        height: 100%;
+    }
+
+    .logo_footer {
+        padding: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        width: 0px;
+        height: 100%;
+    }
+    
+    .titulo_footer {
+        /*Arrumar Fonte*/
+        font-family: 'poppins-medium';
+        font-size: 55%;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+
+    .titulo_segunda_parte {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%;
+        margin-bottom: 1%;
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    .sublinhado_MVV {
+        background-color: rgba(0, 0, 0, 0.993);
+        margin-top: 0.6%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+        width: 60%;
+    }
+
+    .title_MVV {
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 70%;
+        font-weight: bold;
+    }
+
+    .subtitles_MVV {
+        color: black;
+        margin-left: 1%;
+        font-size: 70%;
+        margin-bottom: 1%;
+        font-weight: bold;
+    }
+
+    .text_MVV{
+        margin-bottom: 3%;
+        font-size: 70%;
+    }
+
+    .title_area_atuacao{
+        font-size: 80%;
+        margin-bottom: 1%;
+        font-weight: bold;
+    }
+
+    .risquinho_area_atuacao {
+        background-color: rgba(0, 0, 0, 0.993);
+        margin-top: 0.5%;
+        margin-bottom: 3%;
+        width: 10%;    
+    }
+}

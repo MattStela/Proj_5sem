@@ -36,7 +36,6 @@ li, a {
 
 /*Estilos do menu inteiro*/
 header {
-
     font-weight: bold;
     font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     padding: 1.5%;
@@ -45,7 +44,6 @@ header {
     justify-content: space-between;
     display: flex;
     box-shadow: 0px 5px 10px black;
-
 }
 
 /*estilos do footer, da parte lá de baixo do site*/
@@ -64,16 +62,12 @@ footer {
 }
 
 .footer_div>p {
-
     font-family: 'lato-regular';
     font-size: 70%;
     margin-left: 10%;
-
 }
 
 .titulo_footer {
-
-    /*Arrumar Fonte*/
     font-family: 'poppins-medium';
     font-size: 100%;
     padding-left: 10%;
@@ -100,13 +94,11 @@ footer {
 
 /*estilos do menu*/
 .nav_menu {
-
     font-size: 110%;
     width: 85%;
     text-align: right;
     margin-left: -15%;
     margin-right: 10%;
-
 }
 
 .nav_links {
@@ -116,7 +108,7 @@ footer {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 15px;
+    padding: 0px 10px;
 }
 
 .nav_links li a {
@@ -562,4 +554,8 @@ footer {
     font-family: sans-serif;
     margin-bottom: 3%;
     margin-top: 3%;
+}
+
+.gdp{
+    margin-top: 12.5%;
 }

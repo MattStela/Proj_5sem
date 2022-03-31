@@ -16,16 +16,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
     margin-top: 3%;
     margin-bottom: 1%;
-    font-size: 22px;
+    font-size: 140%;
     font-weight: bold;
 }
 
 .conheca_nossa_empresa {
-
     margin-bottom: 5%;
     height: 100%;
     width: 100%;
@@ -35,28 +32,18 @@
 }
 
 .bloco_esquerda {
+    padding: 5%;
     font-size: 110%;
     height: 95%;
-    margin-left: 4%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    width: 50%;
-
-   
-
+    width: 60%;
 }
 
 .bloco_direita {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 3%;
     height: 95%;
-    margin-top: 3%;
-    margin-bottom: 3%;
     width: 30%;
-
-    
 }
 
 .risquinho_descricao {
@@ -80,7 +67,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
-    width: 463px;
+    width: 80%;
 }
 
 .subtitles_MVV {
@@ -103,9 +90,7 @@
 
 .text_MVV{
     margin-bottom: 3%;
-
     font-size: 118%;
-
 }
 
 .area_atuacao {
