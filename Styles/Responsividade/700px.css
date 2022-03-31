@@ -1,6 +1,6 @@
-/* Responsividade em até 450px de largura */
+/* Responsividade em até 700px de largura */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
 
     .conteudo_sobre_a_empresa {
         display: list-item;
@@ -218,6 +218,15 @@
         height: 100%;
         width: 100%;
         display: inline-flex;
+    }
+
+    .logo {
+
+        width: 15%;
+        display: flex;
+        margin-left: 3%;
+        justify-content: center;
+        align-items: center;
     }
 
     .logo_our_srvc {
