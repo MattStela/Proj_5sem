@@ -1,0 +1,140 @@
+/* Responsividade em até 700px de largura */
+
+@media screen and (max-width: 700px) {
+
+    .logo {
+        width: 15%;
+        display: flex;
+        margin-left: 3%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*estilos do menu*/
+    .nav_menu {
+        font-size: 50%;
+        width: 85%;
+        text-align: right;
+        margin-left: -5%;
+        margin-right: 5%;
+    }
+
+    .nav_links {
+        list-style: none;
+        font-size: 90%;
+    }
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 5px;
+    }
+
+    .nav_links li a {
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav_links li a:hover {
+        color: gray;
+    }
+
+    .conteudo {
+        padding-left: 4%;
+        width: 55%;
+        padding-right: 4%;
+    }
+
+    .servicos_esquerda {
+        padding-top: 2.5%;
+        padding-left: 4.5%;
+        padding-bottom: 2.5%;
+        width: 100%;
+        display: flex;
+        align-items:center;
+        justify-content: left;
+    }
+
+    .servicos_direita {
+        width: 100%;
+        padding-top: 2.5%;
+        padding-right: 4.5%;
+        padding-bottom: 2.5%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .servicos_nomes {
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'lato-regular';
+        font-size: 60%;
+        font-weight: bold;
+        padding-top: 0.5%;
+    }
+
+    .servicos_divisor {
+        width: 91%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: 3%;
+        background-color: black;
+    }
+
+    .servicos_imagens {
+        display: inline-block;
+        width: 40%;
+        height: 100%;
+    }
+
+    .ttl_conteudo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 5%;
+        font-family: 'lato-regular';
+        font-weight: bold;
+        font-size: 70%;
+    }
+
+    .at8 {
+        margin-bottom: 7.5%;
+    }
+
+    .ttl_banner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 200%;
+        color: rgb(255, 255, 255);
+        font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .footer_div {
+        vertical-align: top;
+        width: 32%;
+        height: 100%;
+    }
+
+    .logo_footer {
+        padding: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        width: 0px;
+        height: 100%;
+    }
+    
+    .titulo_footer {
+        /*Arrumar Fonte*/
+        font-family: 'poppins-medium';
+        font-size: 55%;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+}

@@ -8,8 +8,8 @@
     <link rel="icon" href="images/icones/titles/inicio.png" type="image/icon type">
     <link rel="stylesheet" href="Styles/style.css">
 
-    <!--responsividade para celulares-->
-    <link rel="stylesheet" href="./Styles/Responsividade/450px.css">
+    <!-- css para responsividade mobile -->
+    <link rel="stylesheet" href="./Styles/Responsividade/700px_index.css">
 
     <title>Início</title>
 </head>
@@ -36,26 +36,38 @@
     <!--======================================== 1ª parte da página inicial ========================================-->
 
     <section class="UEEDDS">
-
+        <!-- sigla UEEDDS = Uma empresa especializada em desenvolvimento de software -->
         <div class="conteudo_esquerda">
             <div class="text_body1">
-                <h1>
-                    UMA EMPRESA ESPECIALIZADA EM<br>
-                    DESENVOLVIMENTO DE SOFTWARE
-                </h1>
-                <button class="button1">Conheça o grupo</button>
-                <button class="button2">Serviços →</button>
+                <div class="h1_body1">
+                    <h1>
+                        UMA EMPRESA ESPECIALIZADA EM<br>
+                        DESENVOLVIMENTO DE SOFTWARE
+                    </h1>
+                </div>
+
+                <div>
+                    <div class="btns_body1">
+                        <a href="./views/colaboradores.html">
+                            <button type="submit" class="button1">Conheça o grupo</button>
+                        </a>
+                        <a href="./views/servicos.html">
+                            <button class="button2">Serviços →</button>
+                        </a>
+                    </div>
+                </div>
             </div>
+
         </div>
 
         <!--logo da página inicial lá no começo-->
         <div class="conteudo_direita">
-            <img src="images/Logo/logo.svg" alt="logo" width="35%">
+            <img src="images/Logo/logo.svg" alt="logo" width="40%">
         </div>
 
         <!--banner da página inicial-->
 
-        <img width="100%" src="images/Pagina Inicial/banner_pag_inicial.png" alt="banner1"><br>
+        <img width="100%" src="images/Pagina Inicial/banner_pag_inicial.png" alt="banner1">
 
     </section>
 
@@ -65,22 +77,22 @@
         <!--sobre a empresa, bloco da esquerda-->
         <div class="sobre_a_empresa_esquerda">
             <h1 class="ttl_sobre_a_empresa">Sobre a empresa</h1>
-            <hr size="6%" class="risquinho">
+            <hr class="risquinho">
             <p class="txt_sobre_a_empresa">
-                A empresa Good Freelas foi criada a partir de um <br>
-                grupo acadêmico, oferece serviços aos seus<br>
-                clientes com base nas características e habilidades<br>
-                dos integrantes da equipe, visando mostrar<br>
-                às grandes empresas as competências de cada um<br>
-                de seus integrantes de maneira profissional.<br>
-                A Good Freelas procura de forma competitiva,<br>
-                entregar da melhor maneira e de forma ágil<br>
-                seus serviços, buscando sempre a evolução de<br>
-                seus integrantes e do melhor produto possível<br>
-                ao cliente<br><br>
+                A empresa Good Freelas foi criada a partir de um
+                grupo acadêmico, oferece serviços aos seus
+                clientes com base nas características e habilidades
+                dos integrantes da equipe, visando mostrar
+                às grandes empresas as competências de cada um
+                de seus integrantes de maneira profissional.
+                A Good Freelas procura de forma competitiva,
+                entregar da melhor maneira e de forma ágil
+                seus serviços, buscando sempre a evolução de
+                seus integrantes e do melhor produto possível
+                ao cliente
 
             </p>
-            <button class="button3">Leia mais →</button>
+            <a href="./views/sobre-a-empresa.html"><button class="button3">Leia mais →</button></a>
         </div>
 
         <!--sobre a empresa, bloco da direita-->
@@ -98,10 +110,16 @@
     <div class="black_background">
         <section class="ali_na_meiuca">
             <img class="escurecendo_imagem" src="images/Pagina Inicial/s-o-c-i-a-l-c-u-t-r0saAQNjEjQ-unsplash 1.png">
+
             <div class="entre_em_contato">
-                <hr size="5%" class="entre_em_contato_risquinho">
-                <b>INVISTA EM ESTRATÉGIAS DIGITAIS E ALCANCE RESULTADOS MENSURÁVEIS.</b><br>
-                <button class="button4">Entre em contato →</button>
+                <div>
+                    <hr size="5%" class="entre_em_contato_risquinho">
+                    <b>INVISTA EM ESTRATÉGIAS DIGITAIS E ALCANCE RESULTADOS MENSURÁVEIS.</b><br>
+                    <a href="./views/contato.html">
+                        <button class="button4">Entre em contato →</button>
+                    </a>
+                </div>
+
             </div>
         </section>
         <!--======================================== 4ª parte da página inicial - Nossos Serviços ==================-->
@@ -116,7 +134,7 @@
             <div class="little_divs_srvc">
                 <div class="micro_divs_srvc">
                     <div class="logo_our_srvc">
-                        <img src="images/icones/index/ux_design.svg" alt="ux">
+                        <img width="100%" src="images/icones/index/ux_design.svg" alt="ux">
                     </div>
                     <div class="text_our_srvc">
 
@@ -125,9 +143,9 @@
                         </div>
 
                         <div class="txt_svc">
-                            Técnica de<br>
-                            desenvolvimentos de<br>
-                            sites com foco na<br>
+                            Técnica de
+                            desenvolvimentos de
+                            sites com foco na
                             experiência do usuário
                         </div>
 
@@ -143,7 +161,7 @@
             <div class="little_divs_srvc">
                 <div class="micro_divs_srvc">
                     <div class="logo_our_srvc">
-                        <img src="images/icones/index/programacao.svg" alt="prog">
+                        <img width="100%" src="images/icones/index/programacao.svg" alt="prog">
                     </div>
                     <div class="text_our_srvc">
 
@@ -152,9 +170,9 @@
                         </div>
 
                         <div class="txt_svc">
-                            Criação e<br>
-                            desenvolvimento<br>
-                            de sites com Html,<br>
+                            Criação e
+                            desenvolvimento
+                            de sites com Html,
                             CSS e Javascript
                         </div>
 
@@ -163,9 +181,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="micro_divs_srvc">
+
+                <div class="micro_divs_srvc gdp">
                     <div class="logo_our_srvc">
-                        <img src="images/icones/index/gestao_projeto.svg" alt="gesp">
+                        <img width="100%" src="images/icones/index/gestao_projeto.svg" alt="gesp">
                     </div>
                     <div class="text_our_srvc">
 
@@ -174,11 +193,11 @@
                         </div>
 
                         <div class="txt_svc">
-                            A gestão de projetos é uma área da <br>
-                            administração de empresas que <br>
-                            parte de um objetivo para definir <br>
-                            conhecimentos, habilidades e <br>
-                            recursos necessários para a sua <br>
+                            A gestão de projetos é uma área da
+                            administração de empresas que
+                            parte de um objetivo para definir
+                            conhecimentos, habilidades e
+                            recursos necessários para a sua
                             concretização
                         </div>
 
@@ -193,7 +212,7 @@
             <div class="little_divs_srvc">
                 <div class="micro_divs_srvc">
                     <div class="logo_our_srvc">
-                        <img src="images/icones/index/lideranca.svg" alt="lid">
+                        <img width="100%" src="images/icones/index/lideranca.svg" alt="lid">
                     </div>
                     <div class="text_our_srvc">
 
@@ -202,10 +221,10 @@
                         </div>
 
                         <div class="txt_svc">
-                            A liderança, em sua essência,<br>
-                            consiste em viabilizar o trabalho de<br>
-                            uma equipe, dando orientação e<br>
-                            fornecendo as ferramentas<br>
+                            A liderança, em sua essência,
+                            consiste em viabilizar o trabalho de
+                            uma equipe, dando orientação e
+                            fornecendo as ferramentas
                             necessárias
                         </div>
 
@@ -236,7 +255,9 @@
                 Conheça nossos profissionais de<br>
                 desenvolvimento de software
             </p>
-            <button class="button5">Saiba mais</button>
+            <a href="./views/colaboradores.html">
+                <button class="button5">Saiba mais</button>
+            </a>
         </div>
     </div>
 
@@ -252,7 +273,7 @@
     <form action="/action_page.php" class="form_ecc">
 
         <div class="form_row_1">
-            <input width="10" placeholder="Nome*" class="inputs_ecc" type="text" id="fname" name="fname">
+            <input width="10" placeholder="Nome" class="inputs_ecc" type="text" id="fname" name="fname">
             <input placeholder="Telefone" class="inputs_ecc" type="text" id="lname" name="lname">
         </div>
 
@@ -262,8 +283,7 @@
         </div>
 
         <div class="form_row_3">
-            <input placeholder="Mensagem" class="inputs_ecc form_message" type="text"
-                id="lmensagem" name="lmensagem">
+            <input placeholder="Mensagem" class="inputs_ecc form_message" type="text" id="lmensagem" name="lmensagem">
             </textarea>
         </div>
 
@@ -271,7 +291,6 @@
     </form>
 
     <!--==================== 7ª e última parte da página inicial - FOOTER ==========================-->
-
     <footer>
         <img width="18%" class="logo_footer" src="./images/Logo/logo.svg" alt="logo_footer">
         <div class="footer_div">
@@ -284,22 +303,29 @@
             <h3 class="titulo_footer">Termos e Privacidade</h3>
             <p>Politicas de Privacidade</p>
             <h3 class="titulo_footer">Redes Sociais</h3>
-            <!--
-        Falta Colocar os icones de rede sociais
-      -->
+            <div class="icons_social">
+                <!-- ícone instagram -->
+                <img src="images/icones/index/Instagram.svg" alt="whatsapp">
+                <!-- ícone facebook -->
+                <img class="space_icons" src="images/icones/index/facebook.svg" alt="whatsapp">
+            </div>
         </div>
         <div class="footer_div">
             <h3 class="titulo_footer">Fale Conosco</h3>
-            <!--
-          Falta Colocar os icones de `fale conosco`
-        -->
+            <div class="icons_social">
+                <!-- ícone whatsapp -->
+                <img src="images/icones/index/Whats.svg" alt="whatsapp">
+                <!-- ícone e-mail -->
+                <img class="space_icons" src="images/icones/index/email.svg" alt="whatsapp">
+            </div>
         </div>
-        <hr>
+        <hr class="fourth_divisor">
         <p style="padding: 20px;">© 2022 todos direitos reservados</p>
     </footer>
 
-    <!--SCRIPT-->
-    <script src="Scripts/modernizr.min.js"></script>
+    <!--SCRIPTS-->
+    <script src="./Scripts/modernizr.min.js"></script>
+    <script src="./Scripts/index.js"></script>
 </body>
 
 </html>

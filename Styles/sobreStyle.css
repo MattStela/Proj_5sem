@@ -1,31 +1,15 @@
-/*exemplo de como centralizar conteúdo em uma div*/
-.sobre_a_empresa_div {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 450%;
-    color: rgb(255, 255, 255);
-    font-family: system-ui, sans-serif;
-    font-weight: bold;
-}
 
 .titulo_segunda_parte {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
     margin-top: 3%;
     margin-bottom: 1%;
-    font-size: 22px;
+    font-size: 140%;
     font-weight: bold;
 }
 
 .conheca_nossa_empresa {
-
     margin-bottom: 5%;
     height: 100%;
     width: 100%;
@@ -35,28 +19,18 @@
 }
 
 .bloco_esquerda {
+    padding: 5%;
     font-size: 110%;
     height: 95%;
-    margin-left: 4%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    width: 50%;
-
-   
-
+    width: 60%;
 }
 
 .bloco_direita {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 3%;
     height: 95%;
-    margin-top: 3%;
-    margin-bottom: 3%;
     width: 30%;
-
-    
 }
 
 .risquinho_descricao {
@@ -79,8 +53,8 @@
     margin-top: 0.6%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2%;
-    width: 463px;
+    margin-bottom: 7%;
+    width: 80%;
 }
 
 .subtitles_MVV {
@@ -103,14 +77,13 @@
 
 .text_MVV{
     margin-bottom: 3%;
-
     font-size: 118%;
-
 }
 
 .area_atuacao {
     text-align: left;
     margin-left: 9%;
+    margin-right: 9%;
     margin-top: 9%;
     margin-bottom: 9%;
 }

@@ -1,45 +1,63 @@
-h1 {
-  margin-left: 50%;
-  margin-top: 20%;
-  /*Arrumar tamanho da fonte*/
-}
-
-h2 {
-  margin: 50px;
-  text-align: center;
-  /*Arrumar tamanho da fonte*/
-}
-
-section > hr{
-  width: 95%;
-  margin-left: 2%;
+.conteudo{
+  padding-left: 4%;
+  width: 55%;
+  padding-right: 4%;
 }
 
 .servicos_esquerda {
-  padding: 40px;
+  padding-top: 2.5%;
+  padding-left: 4.5%;
+  padding-bottom: 2.5%;
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
 }
 
-.servicos_direita{
-  padding: 40px;
-  display:flex;
-  align-items:right;
-  justify-content:right;
+.servicos_direita {
+  width: 100%;
+  padding-top: 2.5%;
+  padding-right: 4.5%;
+  padding-bottom: 2.5%;
+  display: flex;
+  align-items: right;
+  justify-content: right;
 }
 
-.servicos_nomes{
-
+.servicos_nomes {
   display: inline-block;
   vertical-align: top;
-  font-size: 1.2em; 
-  /*Arrumar tamanho da fonte*/
-  margin-left: 150px;
-  margin-right: 150px;
+  font-family: 'lato-regular';
+  font-size: 100%;
+  font-weight: bold;
+  padding-top: 0.5%;
 }
 
+.servicos_divisor {
+  width: 91%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3%;
+  background-color: black;
+}
 
 .servicos_imagens {
   display: inline-block;
-  width: 500px;
-  margin-bottom: 50px;
-   
+  width: 40%;
+}
+
+.ttl_conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%;
+  font-family: 'lato-regular';
+  font-weight: bold;
+  font-size: 95%;
+}
+
+.at8{
+  margin-bottom: 7.5%;
 }
