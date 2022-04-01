@@ -134,7 +134,7 @@ footer {
 
 .conteudo_esquerda {
     color: #edf0f1;
-    font-family: system-ui, system-ui, sans-serif;
+    font-family: 'poppins-medium';
     font-size: 100%;
     position: absolute;
     width: 100%;
@@ -161,7 +161,6 @@ footer {
     margin-top: 2%;
     top: 60%;
     color: white;
-    font-family: sans-serif;
     background-color: #FFFFFF30;
     border-radius: 5px;
     border: 3px solid white;
@@ -174,11 +173,10 @@ footer {
 
     top: 60%;
     color: white;
-    font-family: sans-serif;
     background-color: #000000;
     border-radius: 5px;
     border: 3px solid rgb(0, 0, 0);
-    font-family: Arial;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     font-size: 100%;
     padding: 9px 20px;
 }
@@ -278,14 +276,13 @@ footer {
 
 .button3 {
     color: white;
-    font-family: sans-serif;
     background-color: #000000;
     border-radius: 5px;
     border: 3px solid rgb(0, 0, 0);
-    font-family: Arial;
     font-size: 70%;
     padding: 0.5% 3%;
     margin-top:10%;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
 }
 
 .entre_em_contato {
@@ -332,11 +329,10 @@ footer {
 
     top: 60%;
     color: white;
-    font-family: sans-serif;
     background-color: #000000;
     border-radius: 5px;
     border: 3px solid rgb(0, 0, 0);
-    font-family: Arial;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     font-size: 17px;
     padding: 0.5% 2%;
     margin-top: 2%;
@@ -384,7 +380,7 @@ footer {
 .title_our_srvc {
 
     text-align: center;
-    font-family: system-ui, system-ui, sans-serif;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     font-size: 185%;
     font-weight: 500;
     color: #edf0f1a1;
@@ -402,7 +398,7 @@ footer {
 
 .ttl_svc {
 
-    font-family: system-ui, system-ui, sans-serif;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     font-size: 100%;
     margin-top: 2%;
     height: 25%;
@@ -415,7 +411,7 @@ footer {
     padding: 2%;
     padding-right: 10%;
     color: #edf0f1dc;
-    font-family: system-ui, system-ui, sans-serif;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     font-size: 85%;
     height: 50%;
     width: 100%;
@@ -424,7 +420,7 @@ footer {
 }
 
 .know_more {
-    font-family: system-ui, system-ui, sans-serif;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     font-size: 100%;
     margin: 4%;
     padding: 5%;
@@ -442,7 +438,7 @@ footer {
 
 .button5 {
     color: white;
-    font-family: sans-serif;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     background-color: #3a3a3a;
     border-radius: 5px;
     border: 3px solid rgb(0, 0, 0);
@@ -490,7 +486,7 @@ footer {
     background-color: #000000;
     color: white;
     padding: 4.5%;
-    font-family: system-ui, system-ui, sans-serif;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     font-size: large;
 }
 
@@ -523,7 +519,6 @@ footer {
 
 .input_submit {
     margin-top: 30px;
-    font-family: sans-serif;
     background-color: #000000;
     border-radius: 5px;
     border: 3px solid rgb(0, 0, 0);
@@ -552,7 +547,7 @@ footer {
 
 .ttl_div_form {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
     margin-bottom: 3%;
     margin-top: 3%;
 }
@@ -573,4 +568,21 @@ footer {
 
 .fourth_divisor{
     margin-top:3%;
+}
+
+.ttl_banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 450%;
+    color: rgb(255, 255, 255);
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.section_banner{
+    position:relative;
 }
