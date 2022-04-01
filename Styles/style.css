@@ -87,7 +87,7 @@ footer {
 
     width: 15%;
     display: flex;
-    margin-left: 10%;
+    margin-left: 5%;
     justify-content: center;
     align-items: center;
 }
@@ -142,13 +142,14 @@ footer {
 }
 
 .conteudo_direita {
-    padding-left: 50%;
     position: absolute;
-    width: 100%;
+    padding-bottom: 3%;
+    width: 30%;
+    right: 0%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:baseline;
 }
 
 
@@ -558,4 +559,18 @@ footer {
 
 .gdp{
     margin-top: 12.5%;
+}
+
+.icons_social{
+    padding-left:10%;
+    padding-top: 3%;
+    display:flex;
+}
+
+.space_icons{
+    margin-left:5%;
+}
+
+.fourth_divisor{
+    margin-top:3%;
 }

@@ -35,7 +35,8 @@
     </section>
     <!--======================================== 1ª parte da página inicial ========================================-->
 
-    <section class="UEEDDS"> <!-- sigla UEEDDS = Uma empresa especializada em desenvolvimento de software -->
+    <section class="UEEDDS">
+        <!-- sigla UEEDDS = Uma empresa especializada em desenvolvimento de software -->
         <div class="conteudo_esquerda">
             <div class="text_body1">
                 <div class="h1_body1">
@@ -47,8 +48,12 @@
 
                 <div>
                     <div class="btns_body1">
-                        <button class="button1">Conheça o grupo</button>
-                        <button class="button2">Serviços →</button>
+                        <a href="./views/colaboradores.html">
+                            <button type="submit" class="button1">Conheça o grupo</button>
+                        </a>
+                        <a href="./views/servicos.html">
+                            <button class="button2">Serviços →</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -57,7 +62,7 @@
 
         <!--logo da página inicial lá no começo-->
         <div class="conteudo_direita">
-            <img src="images/Logo/logo.svg" alt="logo" width="25%">
+            <img src="images/Logo/logo.svg" alt="logo" width="40%">
         </div>
 
         <!--banner da página inicial-->
@@ -87,7 +92,7 @@
                 ao cliente
 
             </p>
-            <button class="button3">Leia mais →</button>
+            <a href="./views/sobre-a-empresa.html"><button class="button3">Leia mais →</button></a>
         </div>
 
         <!--sobre a empresa, bloco da direita-->
@@ -110,7 +115,9 @@
                 <div>
                     <hr size="5%" class="entre_em_contato_risquinho">
                     <b>INVISTA EM ESTRATÉGIAS DIGITAIS E ALCANCE RESULTADOS MENSURÁVEIS.</b><br>
-                    <button class="button4">Entre em contato →</button>
+                    <a href="./views/contato.html">
+                        <button class="button4">Entre em contato →</button>
+                    </a>
                 </div>
 
             </div>
@@ -174,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="micro_divs_srvc gdp">
                     <div class="logo_our_srvc">
                         <img width="100%" src="images/icones/index/gestao_projeto.svg" alt="gesp">
@@ -186,11 +193,11 @@
                         </div>
 
                         <div class="txt_svc">
-                            A gestão de projetos é uma área da 
-                            administração de empresas que 
-                            parte de um objetivo para definir 
-                            conhecimentos, habilidades e 
-                            recursos necessários para a sua 
+                            A gestão de projetos é uma área da
+                            administração de empresas que
+                            parte de um objetivo para definir
+                            conhecimentos, habilidades e
+                            recursos necessários para a sua
                             concretização
                         </div>
 
@@ -248,7 +255,9 @@
                 Conheça nossos profissionais de<br>
                 desenvolvimento de software
             </p>
-            <button class="button5">Saiba mais</button>
+            <a href="./views/colaboradores.html">
+                <button class="button5">Saiba mais</button>
+            </a>
         </div>
     </div>
 
@@ -282,7 +291,6 @@
     </form>
 
     <!--==================== 7ª e última parte da página inicial - FOOTER ==========================-->
-
     <footer>
         <img width="18%" class="logo_footer" src="./images/Logo/logo.svg" alt="logo_footer">
         <div class="footer_div">
@@ -295,21 +303,29 @@
             <h3 class="titulo_footer">Termos e Privacidade</h3>
             <p>Politicas de Privacidade</p>
             <h3 class="titulo_footer">Redes Sociais</h3>
-            <!--
-        Falta Colocar os icones de rede sociais
-      -->
+            <div class="icons_social">
+                <!-- ícone instagram -->
+                <img src="images/icones/index/Instagram.svg" alt="whatsapp">
+                <!-- ícone facebook -->
+                <img class="space_icons" src="images/icones/index/facebook.svg" alt="whatsapp">
+            </div>
         </div>
         <div class="footer_div">
             <h3 class="titulo_footer">Fale Conosco</h3>
-            <!--
-          Falta Colocar os icones de `fale conosco`
-        -->
+            <div class="icons_social">
+                <!-- ícone whatsapp -->
+                <img src="images/icones/index/Whats.svg" alt="whatsapp">
+                <!-- ícone e-mail -->
+                <img class="space_icons" src="images/icones/index/email.svg" alt="whatsapp">
+            </div>
         </div>
-        <hr>
+        <hr class="fourth_divisor">
         <p style="padding: 20px;">© 2022 todos direitos reservados</p>
     </footer>
 
-    <!--SCRIPT-->
-    <script src="Scripts/modernizr.min.js"></script>
+    <!--SCRIPTS-->
+    <script src="./Scripts/modernizr.min.js"></script>
+    <script src="./Scripts/index.js"></script>
 </body>
+
 </html>
