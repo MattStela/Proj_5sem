@@ -1,4 +1,19 @@
-/*isso aqui é pra todo mundo*/
+/* animação */
+@keyframes eita {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body{
+    animation: eita 3s;
+}
+
+/* isso aqui é pra todo mundo */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -32,6 +47,7 @@
 li, a {
     color: #edf0f1;
     text-decoration: none;
+
 }
 
 /*Estilos do menu inteiro*/
@@ -81,10 +97,9 @@ footer {
     height: 140px;
 }
 
-/*====================== estilos de CLASSES ======================*/
-/*estilo do logo geral*/
+/* ====================== estilos de CLASSES ====================== */
+/* estilo do logo geral */
 .logo {
-
     width: 15%;
     display: flex;
     margin-left: 5%;
@@ -149,7 +164,7 @@ footer {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content:baseline;
+    justify-content: baseline;
 }
 
 
@@ -183,7 +198,7 @@ footer {
 
 .text_body1 {
     height: 100%;
-    font-family: 'poppins-medium', 'lato-regular', Arial, sans-serif;    
+    font-family: 'poppins-medium', 'lato-regular', Arial, sans-serif;
 }
 
 .h1_body1 {
@@ -281,7 +296,7 @@ footer {
     border: 3px solid rgb(0, 0, 0);
     font-size: 70%;
     padding: 0.5% 3%;
-    margin-top:10%;
+    margin-top: 10%;
     font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
 }
 
@@ -552,22 +567,22 @@ footer {
     margin-top: 3%;
 }
 
-.gdp{
+.gdp {
     margin-top: 12.5%;
 }
 
-.icons_social{
-    padding-left:10%;
+.icons_social {
+    padding-left: 10%;
     padding-top: 3%;
-    display:flex;
+    display: flex;
 }
 
-.space_icons{
-    margin-left:5%;
+.space_icons {
+    margin-left: 5%;
 }
 
-.fourth_divisor{
-    margin-top:3%;
+.fourth_divisor {
+    margin-top: 3%;
 }
 
 .ttl_banner {
@@ -583,6 +598,6 @@ footer {
     font-weight: bold;
 }
 
-.section_banner{
-    position:relative;
+.section_banner {
+    position: relative;
 }
