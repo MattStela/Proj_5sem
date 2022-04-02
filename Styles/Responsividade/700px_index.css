@@ -366,4 +366,14 @@
     .gdp{
         margin-top: 0%;
     }
+
+    .ttl_div_form {
+        font-size: 70%;
+        text-align: center;
+        font-family: 'poppins-medium', Arial, sans-serif;
+        margin-bottom: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
 }
