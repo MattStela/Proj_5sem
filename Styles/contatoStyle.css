@@ -1,14 +1,59 @@
-h1#cot {
-    color: #fff;
-    position: absolute;
-    top: 310px;
-    left: 570px;
-    font-family: system-ui, sans-serif;
-    font-size: 50px;
+.conteudo_contato {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'poppins-medium';
+    font-weight: bold;
+    font-size: 105%;
+    padding-bottom: 5%;
+    ;
 }
 
-.ico {
+.ttl_contato {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-size: 105%;
+}
+
+.social_contato {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div_insta_e_whats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.micro_divs_icons{
+    width: 200px;
+    height: 100%;
     text-align: center;
-    margin: 100px;
-    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.icons_contato{
+    margin-top: 1%;
+    margin-right: 2.5%;
+}
+
+.ttl_div_form {
+    font-size: 100%;
+    text-align: center;
+    font-family: 'poppins-medium', Arial, sans-serif;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }

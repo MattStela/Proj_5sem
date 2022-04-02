@@ -5,112 +5,135 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" href="../images/icones/titles/contato.png" type="image/icon type">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
   <title>Contato</title>
   <link rel="stylesheet" href="../Styles/style.css">
   <link rel="stylesheet" href="../Styles/contatoStyle.css">
+  <link rel="stylesheet" href="../Styles/Responsividade/700px_contato.css">
 
-  <!--responsividade para celulares-->
-  <link rel="stylesheet" href="../Styles/Responsividade/450px.css">
-  
 </head>
 
 <body>
-  <!--MENU-->
+  <!-------------------------------- MENU -------------------------------------------->
   <section>
     <header>
-        <div class="logo">
-            <img width="65%" src="../images/Logo/logo.svg" alt="logo">
-        </div>
+      <div class="logo">
+        <img width="65%" src="../images/Logo/logo.svg" alt="logo">
+      </div>
 
-        <nav class="nav_menu">
-            <ul class="nav_links">
-              <li><a href="../index.html">Início</a></li>
-              <li><a href="./sobre-a-empresa.html">Sobre a empresa</a></li>
-              <li><a href="./servicos.html">Serviços</a></li>
-              <li><a href="./colaboradores.html">Colaboradores</a></li>
-              <li><a href="./contato.html">Contato</a></li>
-            </ul>
-        </nav>
+      <nav class="nav_menu">
+        <ul class="nav_links">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="./sobre-a-empresa.html">Sobre a empresa</a></li>
+          <li><a href="./servicos.html">Serviços</a></li>
+          <li><a href="./colaboradores.html">Colaboradores</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
 
     </header>
-</section>
+  </section>
 
-  <footer>
-   
-  </footer>
-  
-<div class="contato">
-  <div class="contato-img">
-    <img src="../images/Contato/Contato.png" alt="">
-      <h1 id="cot">Contato</h1>
-        <div class="ico">
-          <h2>Estamos sempre prontos para atender você!</h2>
-          <i class="fab fa-instagram"></i>goodfreelas
-          <i class="fab fa-whatsapp"></i>(00) 0000-0000
-          <i class="fas fa-envelope"></i>goodfreelas@gmail.com
+  <!----------------------------------- banner em Contatos ------------------------------>
+  <section>
+    <section class="section_banner">
+      <div class="ttl_banner">
+        <p>Contato</p>
       </div>
+      <img width="100%" src="../images/Contato/Contato.png" alt="banner">
+    </section>
+  </section>
+
+  <!------------------------ Estamos sempre prontos para anteder você! ---------------------------->
+  <section class="conteudo_contato">
+
+    <div class="ttl_contato">
+      <h3>Estamos sempre prontos para atender você!</h3>
     </div>
 
-      <div class="form">
-      <form>
-        <h2>Fale Conosco!</h2>
-          <label>Preencha o formulário abaixo para que possamos entrar em contato com você!</label>
-          <div class="form2">
-            <input type="text" name="nome" placeholder="Nome *" autofocus > <!--Ligando com o js de testes-->
-            <input type="tel" name="telefone" placeholder="Telefone *" >
-            <input type="email" name="email" placeholder="Email *" >
-            <input type="text" name="empresa" placeholder="Empresa *" >
-            <input type="text" name="cidade" placeholder="Cidade *" >
-            <input type="text" name="assunto" placeholder="Assunto *" >
-            <textarea name="mensagem" placeholder="Mensagem *" cols="30" rows="10"></textarea>
-            <input type="submit" value="Enviar" name="bt">
-          </div>
-        </form>
+    <div class="social_contato">
+      <div class="div_insta_e_whats">
+        <div class="micro_divs_icons">
+          <img class="icons_contato" width="10%" src="../images/icones/contatos/instagram.png" alt="e-mail">
+          <p>@goodfreelas</p>
+        </div>
+        <div class="micro_divs_icons">
+          <img class="icons_contato" width="10%" src="../images/icones/contatos/whatsapp.png" alt="whatsapp">
+          <p>(00) 00000-0000</p>
+        </div>
+      </div>
+      <div class="micro_divs_icons">
+        <img class="icons_contato" width="12%" src="../images/icones/contatos/email.png" alt="e-mail">
+        <p>goodfreelas@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------- Formulário ------------------------------------>
+  <section>
+    <div class="ttl_div_form">
+      <h3>Fale conosco!</h3><br>
+      <p>Preencha o formulario abaixo para que possamos entrar em contato com você!</p>
+    </div>
+
+    <form action="/action_page.php" class="form_ecc">
+
+      <div class="form_row_1">
+        <input width="10" placeholder="Nome" class="inputs_ecc" type="text" id="fname" name="fname">
+        <input placeholder="Telefone" class="inputs_ecc" type="text" id="lname" name="lname">
       </div>
 
-      <footer>
-        <img width="18%" class="logo_footer" src="../images/Logo/logo.svg" alt="logo_footer">
-        <div class="footer_div">
-            <h3 class="titulo_footer">Informacoes</h3>
-            <p>Quem Somos</p>
-            <p>Serviços</p>
-            <p>Contatos</p>
-        </div>
-        <div class="footer_div">
-            <h3 class="titulo_footer">Termos e Privacidade</h3>
-            <p>Politicas de Privacidade</p>
-            <h3 class="titulo_footer">Redes Sociais</h3>
-            <div class="icons_social">
-                <!-- ícone instagram -->
-                <img src="../images/icones/index/Instagram.svg" alt="whatsapp">
-                <!-- ícone facebook -->
-                <img class="space_icons" src="../images/icones/index/facebook.svg" alt="whatsapp">
-            </div>
-        </div>
-        <div class="footer_div">
-            <h3 class="titulo_footer">Fale Conosco</h3>
+      <div class="form_row_2">
+        <input placeholder="E-mail" class="inputs_ecc" type="email" id="lemail" name="lemail">
+        <input placeholder="Cidade" class="inputs_ecc" type="text" id="lcidade" name="lcidade">
+      </div>
 
-            <div class="icons_social">
-                <!-- ícone whatsapp -->
-                <img src="../images/icones/index/Whats.svg" alt="whatsapp">
-                <!-- ícone e-mail -->
-                <img class="space_icons" src="../images/icones/index/email.svg" alt="whatsapp">
-            </div>
+      <div class="form_row_3">
+        <input placeholder="Mensagem" class="inputs_ecc form_message" type="text" id="lmensagem" name="lmensagem">
+        </textarea>
+      </div>
 
-        </div>
-        <hr class="fourth_divisor">
-        <p style="padding: 20px;">© 2022 todos direitos reservados</p>
-    </footer>
+      <input class="input_submit" type="submit" value="Enviar">
+    </form>
 
+  </section>
 
+  <!------------------------------------------- Footer ------------------------------------>
+  <footer>
+    <img width="18%" class="logo_footer" src="../images/Logo/logo.svg" alt="logo_footer">
+    <div class="footer_div">
+      <h3 class="titulo_footer">Informacoes</h3>
+      <p>Quem Somos</p>
+      <p>Serviços</p>
+      <p>Contatos</p>
+    </div>
+    <div class="footer_div">
+      <h3 class="titulo_footer">Termos e Privacidade</h3>
+      <p>Politicas de Privacidade</p>
+      <h3 class="titulo_footer">Redes Sociais</h3>
+      <div class="icons_social">
+        <!-- ícone instagram -->
+        <img src="../images/icones/index/Instagram.svg" alt="whatsapp">
+        <!-- ícone facebook -->
+        <img class="space_icons" src="../images/icones/index/facebook.svg" alt="whatsapp">
+      </div>
+    </div>
+    <div class="footer_div">
+      <h3 class="titulo_footer">Fale Conosco</h3>
 
+      <div class="icons_social">
+        <!-- ícone whatsapp -->
+        <img src="../images/icones/index/Whats.svg" alt="whatsapp">
+        <!-- ícone e-mail -->
+        <img class="space_icons" src="../images/icones/index/email.svg" alt="whatsapp">
+      </div>
 
-
-
-
-  </div>
+    </div>
+    <hr class="fourth_divisor">
+    <p style="padding: 20px;">© 2022 todos direitos reservados</p>
+  </footer>
 
   <script src="Scripts/testes.js"></script>
 

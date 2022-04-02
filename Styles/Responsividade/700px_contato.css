@@ -1,0 +1,162 @@
+@media screen and (max-width: 700px) {
+
+    .logo {
+        width: 15%;
+        display: flex;
+        margin-left: 3%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*estilos do menu*/
+    .nav_menu {
+        font-size: 50%;
+        width: 85%;
+        text-align: right;
+        margin-left: -5%;
+        margin-right: 5%;
+    }
+
+    .nav_links {
+        list-style: none;
+        font-size: 90%;
+    }
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 5px;
+    }
+
+    .nav_links li a {
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav_links li a:hover {
+        color: gray;
+    }
+    
+    .conteudo_contato {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'poppins-medium';
+        font-weight: bold;
+        font-size: 70%;
+        padding-bottom: 7%;
+        ;
+    }
+
+    .ttl_contato {
+        margin-top: 10%;
+        margin-bottom: 3%;
+        font-size: 105%;
+    }
+
+    .social_contato {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .div_insta_e_whats {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .micro_divs_icons {
+        width: 200px;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .icons_contato {
+        margin-top: 1%;
+        margin-right: 2.5%;
+    }
+
+    .ttl_banner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 200%;
+        color: rgb(255, 255, 255);
+        font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .footer_div {
+        vertical-align: top;
+        width: 32%;
+        height: 100%;
+    }
+
+    .logo_footer {
+        padding: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        width: 0px;
+        height: 100%;
+    }
+    
+    .titulo_footer {
+        font-family: 'poppins-medium';
+        font-size: 55%;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+
+    input[type=text] {
+        width: 100%;
+        background-color: #e4e4e4;
+        color: rgb(0, 0, 0);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    input[type=email] {
+        width: 100%;
+        background-color: #e4e4e4;
+        color: rgb(0, 0, 0);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .input_submit {
+        width: 70px;
+        border-radius: 20px;
+    }
+
+    .ttl_div_form {
+        font-size: 70%;
+        text-align: center;
+        font-family: 'poppins-medium', Arial, sans-serif;
+        margin-bottom: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+}
