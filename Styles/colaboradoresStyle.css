@@ -95,5 +95,16 @@
     height: 50px;
     border-radius: 20px 20px 0px 0px;
     background-color: #E7E7E7;
+}
 
+.about_text >li {
+  color: black;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+.professional_experience > li{
+  color: black;
+  padding: 5px;
+  margin-left: 50px;
 }

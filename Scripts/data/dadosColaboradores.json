@@ -1,0 +1,32 @@
+[
+
+  {
+    "id": 0,
+    "name": "Jessica gomes",
+    "about": {
+      "age": 20,
+      "role": "UX Design"
+    },
+    "experience": ["Prototipacao de sites e sistemas", "Criacao de WireFrames", "Design Responsivel"]
+  },
+  {
+    "id": 1,
+    "name": "Larrisa Harris",
+    "about": {
+      "age": 22,
+      "role": "Desenvolvedora Back End"
+    },
+    "experience": ["Desenvolvimento de sites para e-commerce", "Programador Java"]
+  },
+  {
+    "id": 2,
+    "name": "Thomas Jobs",
+    "about": {
+      "age": 21,
+      "role": "Desenvolvedor back end"
+    },
+    "experience": ["Desenvolvimento de sites para e-commerce", "Programador Java"]
+  }
+  
+
+]
