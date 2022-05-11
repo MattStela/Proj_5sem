@@ -33,7 +33,7 @@
     padding: 0.3%;
 }
 
-.micro_div{
+.micro_div {
     width: 25%;
     height: 100%;
     display: flex;
@@ -41,18 +41,19 @@
     justify-content: center;
     margin-right: 0.3%;
     margin-left: 0.3%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.nano_div{
+.nano_div {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5%;
+    flex-direction: column;
+    margin: 4%;
 }
 
 .button3 {
@@ -62,49 +63,84 @@
 }
 
 /* ================================= Perfis ================================= */
-.profile_section{
-    height: 500px;
+.profile_section {
+    height: 550px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 2%;
+    justify-content: right;
+    margin-bottom: 10%;
     margin-top: 1.8%;
+    font-family: 'lato-regular', 'poppins-medium', Arial, sans-serif;
 }
 
-.profile{
-    width:33%;
-    border:1px solid rgb(233, 233, 233);
-    height:100%;
+.profile {
+    width: 28%;
+    border: 1px solid rgb(233,233,233);
+    height: 130%;
     margin-left: 2%;
-    margin-right: 2%;
     border-radius: 10px;
     box-shadow: 0px 4px 0px 0px #00000040;
-
+    position: absolute;
+    top: 40%;
+    left: 0;
+    bottom: 20%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.info_profile{
-    width:66%;
-    border:1px solid rgb(233, 233, 233);
-    height:100%;
+.info_profile {
+    width: 66%;
+    border: 1px solid rgb(233, 233, 233);
+    height: 100%;
     margin-right: 2%;
     border-radius: 20px;
     box-shadow: 0px 4px 0px 0px #00000040;
+    text-indent: 3ch;
 }
 
-.title_profile{
+.title_profile {
     height: 50px;
     border-radius: 20px 20px 0px 0px;
     background-color: #E7E7E7;
+    padding-top: 7px;
+    font-size: 17px;
 }
 
-.about_text >li {
-  color: black;
-  padding: 5px;
-  margin-left: 50px;
+.content_profile{
+    padding-top: 15px;
+    font-size: 17px ;
 }
 
-.professional_experience > li{
-  color: black;
-  padding: 5px;
-  margin-left: 50px;
+.about_text>li {
+    color: black;
+    margin-left: 50px;
+    font-size: 21px;
+}
+
+.professional_experience>li {
+    color: black;
+    margin-left: 50px;
+    font-size: 21px;
+}
+
+.buttons_social {
+    width: 70%;
+    text-align: center;
+    margin: 2%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.divs_profile {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
