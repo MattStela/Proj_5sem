@@ -7,6 +7,7 @@
       "age": 20,
       "role": "UX Design"
     },
+    "profileImage": "../images/Colaboradores/Jessica.png",
     "experience": ["Prototipacao de sites e sistemas", "Criacao de WireFrames", "Design Responsivel"]
   },
   {
@@ -16,6 +17,7 @@
       "age": 22,
       "role": "Desenvolvedora Back End"
     },
+    "profileImage": "../images/Colaboradores/Larrissa.png",
     "experience": ["Desenvolvimento de sites para e-commerce", "Programador Java"]
   },
   {
@@ -23,9 +25,20 @@
     "name": "Thomas Jobs",
     "about": {
       "age": 21,
-      "role": "Desenvolvedor back end"
+      "role": "Desenvolvedor Back End"
     },
+    "profileImage": "../images/Colaboradores/Thomas.png",
     "experience": ["Desenvolvimento de sites para e-commerce", "Programador Java"]
+  },
+  {
+    "id": 3,
+    "name": "Emanuel Ribeiro",
+    "about": {
+      "age": 20,
+      "role": "Desenvolvedor Front End"
+    },
+    "profileImage": "../images/Colaboradores/Emanuel.png",
+    "experience": ["Desenvolvimento de Sites para e-commerce", "Web Design"]
   }
   
 
