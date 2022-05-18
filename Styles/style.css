@@ -62,10 +62,18 @@ footer {
     height: 100%;
 }
 
-.footer_div>p {
+.footer_div>a{
     font-family: 'lato-regular';
     font-size: 70%;
     margin-left: 10%;
+    width: 150px;
+}
+
+.footer_div>p{
+    font-family: 'lato-regular';
+    font-size: 70%;
+    margin-left: 10%;
+    width: 150px;
 }
 
 .titulo_footer {

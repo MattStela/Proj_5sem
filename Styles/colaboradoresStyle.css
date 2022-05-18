@@ -134,6 +134,10 @@
     border: 1px solid #000000;
     border-radius: 5px;
     padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .divs_profile {
@@ -143,4 +147,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.icon_colab{
+    margin-right: 7px;
+    margin-top: 5px;
+}
+
+.text_black{
+    color:black;
 }
